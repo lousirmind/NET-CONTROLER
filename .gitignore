@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+*.egg-info/
+dist/
+.eggs/
+
+# Virtual environments
+.build_venv/
+venv/
+.venv/
+
+# Build artifacts
+build/
+*.spec
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OUI cache (runtime-generated)
+oui_cache.json
+
+# PyInstaller
+*.pyinstaller/
+
+# Local Claude settings
+.claude/settings.local.json

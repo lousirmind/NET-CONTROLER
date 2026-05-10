@@ -1,0 +1,2867 @@
+# =============================================================================
+# Supplementary OUI Database — Chinese Phone Brands & More
+# =============================================================================
+# Format: AABBCC VendorName  (same as nmap-mac-prefixes)
+# Sources: IEEE OUI registry, maclookup.app, netify.ai
+# =============================================================================
+
+# --- Xiaomi Communications (小米) ---
+009EC8 Xiaomi Communications
+00C30A Xiaomi Communications
+00EC0A Xiaomi Communications
+04106B Xiaomi Communications
+047A0B Xiaomi Electronics
+04B167 Xiaomi Communications
+04C807 Xiaomi Communications
+04CF8C Xiaomi Electronics
+04D13A Xiaomi Communications
+04E598 Xiaomi Communications
+081C6E Xiaomi Communications
+082525 Xiaomi Communications
+08B339 Xiaomi Communications
+0C07DF Xiaomi Communications
+0C1DAF Xiaomi Communications
+0C9838 Xiaomi Communications
+0CC6FD Xiaomi Communications
+0CEDC8 Xiaomi Communications
+10C197 Xiaomi Communications
+144D67 Xiaomi Communications
+14825C Xiaomi Communications
+14E4EC Xiaomi Communications
+18327C Xiaomi Communications
+185933 Xiaomi Communications
+1859BF Xiaomi Communications
+18F22B Xiaomi Communications
+1C3ACF Xiaomi Communications
+1C99A1 Xiaomi Communications
+1CC63C Xiaomi Communications
+2025CC Xiaomi Communications
+203462 Xiaomi Communications
+203B34 Xiaomi Communications
+209952 Xiaomi Communications
+20E5F4 Xiaomi Communications
+2412A9 Xiaomi Communications
+24444D Xiaomi Communications
+24E44D Xiaomi Communications
+280625 Xiaomi Communications
+283CE4 Xiaomi Communications
+285923 Xiaomi Communications
+2877A2 Xiaomi Communications
+2887BA Xiaomi Communications
+28DBA1 Xiaomi Communications
+2C0B97 Xiaomi Communications
+2C0DCF Xiaomi Communications
+2C7B84 Xiaomi Communications
+300C0A Xiaomi Communications
+30B664 Xiaomi Communications
+30E98C Xiaomi Communications
+3408E4 Xiaomi Communications
+3432DC Xiaomi Communications
+348454 Xiaomi Communications
+349D4C Xiaomi Communications
+34EEFD Xiaomi Communications
+380077 Xiaomi Communications
+380C81 Xiaomi Communications
+382BD4 Xiaomi Communications
+384825 Xiaomi Communications
+385EA6 Xiaomi Communications
+387C9C Xiaomi Communications
+389916 Xiaomi Communications
+38A28B Xiaomi Communications
+38DE60 Xiaomi Communications
+3C3824 Xiaomi Communications
+3C7F6E Xiaomi Communications
+3CAFB7 Xiaomi Communications
+3CC810 Xiaomi Communications
+3CE0F4 Xiaomi Communications
+400877 Xiaomi Communications
+4031C0 Xiaomi Communications
+404D8D Xiaomi Communications
+40DEB7 Xiaomi Communications
+40F430 Xiaomi Communications
+444A37 Xiaomi Communications
+44BDC8 Xiaomi Communications
+44CBAD Xiaomi Communications
+4850DD Xiaomi Communications
+4863F2 Xiaomi Communications
+488403 Xiaomi Communications
+48D539 Xiaomi Communications
+48EE86 Xiaomi Communications
+4C55B2 Xiaomi Communications
+4C63EB Xiaomi Communications
+4C8E19 Xiaomi Communications
+4C9E80 Xiaomi Communications
+4CA0EA Xiaomi Communications
+4CE20F Xiaomi Communications
+504B5B Xiaomi Communications
+50AA03 Xiaomi Communications
+50D241 Xiaomi Communications
+542A1E Xiaomi Communications
+54498A Xiaomi Communications
+545F9A Xiaomi Communications
+5484C4 Xiaomi Communications
+583CCA Xiaomi Communications
+584440 Xiaomi Communications
+58528A Xiaomi Communications
+585E7A Xiaomi Communications
+58CBB7 Xiaomi Communications
+5C4071 Xiaomi Communications
+5C6AAF Xiaomi Communications
+5C9D91 Xiaomi Communications
+5CA187 Xiaomi Communications
+604B2B Xiaomi Communications
+6057C6 Xiaomi Communications
+606A6E Xiaomi Communications
+60908B Xiaomi Communications
+60AB14 Xiaomi Communications
+60B105 Xiaomi Communications
+60BE5E Xiaomi Communications
+60DE11 Xiaomi Communications
+60EEF8 Xiaomi Communications
+6416F0 Xiaomi Communications
+643D9C Xiaomi Communications
+6449B5 Xiaomi Communications
+646306 Xiaomi Communications
+648774 Xiaomi Communications
+64CC2E Xiaomi Communications
+680BB0 Xiaomi Communications
+6836DD Xiaomi Communications
+684DB6 Xiaomi Communications
+685C54 Xiaomi Communications
+686C51 Xiaomi Communications
+68927A Xiaomi Communications
+68AB8A Xiaomi Communications
+68DFDD Xiaomi Communications
+6C483F Xiaomi Communications
+6CBAC8 Xiaomi Communications
+6CD9C0 Xiaomi Communications
+70217F Xiaomi Communications
+7031D1 Xiaomi Communications
+70617D Xiaomi Communications
+70B70D Xiaomi Communications
+70D5CF Xiaomi Communications
+741E4F Xiaomi Communications
+74273C Xiaomi Communications
+7472B9 Xiaomi Communications
+74B00F Xiaomi Communications
+74CB70 Xiaomi Communications
+74DF50 Xiaomi Communications
+780F77 Xiaomi Communications
+782AF2 Xiaomi Communications
+787E4A Xiaomi Communications
+789987 Xiaomi Communications
+78C2B7 Xiaomi Communications
+78EB14 Xiaomi Communications
+78F0C5 Xiaomi Communications
+7C1DD9 Xiaomi Communications
+7C4D84 Xiaomi Communications
+7CA12B Xiaomi Communications
+7CC3B2 Xiaomi Communications
+7CCD3D Xiaomi Communications
+80006E Xiaomi Communications
+803A37 Xiaomi Communications
+806B0D Xiaomi Communications
+808F97 Xiaomi Communications
+80E63C Xiaomi Communications
+84323C Xiaomi Communications
+849B1B Xiaomi Communications
+84AEDE Xiaomi Communications
+84DB2F Xiaomi Communications
+882F92 Xiaomi Communications
+886B7F Xiaomi Communications
+88B951 Xiaomi Communications
+8C5978 Xiaomi Communications
+8CBE8E Xiaomi Communications
+8CD17F Xiaomi Communications
+8CE117 Xiaomi Communications
+8CF5C0 Xiaomi Communications
+9020C7 Xiaomi Communications
+906F1B Xiaomi Communications
+909432 Xiaomi Communications
+90F052 Xiaomi Communications
+942A2F Xiaomi Communications
+9431B2 Xiaomi Communications
+945A88 Xiaomi Communications
+9472E6 Xiaomi Communications
+948B93 Xiaomi Communications
+94909C Xiaomi Communications
+94D8A5 Xiaomi Communications
+980D82 Xiaomi Communications
+9812E0 Xiaomi Communications
+983F0B Xiaomi Communications
+986CF5 Xiaomi Communications
+98B3A5 Xiaomi Communications
+98EE94 Xiaomi Communications
+9C41A9 Xiaomi Communications
+9C5416 Xiaomi Communications
+9C65B0 Xiaomi Communications
+9CA3B7 Xiaomi Communications
+A00EF1 Xiaomi Communications
+A08C15 Xiaomi Communications
+A0A33C Xiaomi Communications
+A0AD71 Xiaomi Communications
+A0D7CA Xiaomi Communications
+A41232 Xiaomi Communications
+A47733 Xiaomi Communications
+A4804A Xiaomi Communications
+A484F8 Xiaomi Communications
+A485D7 Xiaomi Communications
+A4864A Xiaomi Communications
+A4A68B Xiaomi Communications
+A4C788 Xiaomi Communications
+A4FF9F Xiaomi Communications
+A81B6A Xiaomi Communications
+A82BD5 Xiaomi Communications
+A8619E Xiaomi Communications
+A86DAA Xiaomi Communications
+A8A7E0 Xiaomi Communications
+A8F0E3 Xiaomi Communications
+AC046C Xiaomi Communications
+AC2091 Xiaomi Communications
+AC5F3A Xiaomi Communications
+AC61A4 Xiaomi Communications
+AC7E8A Xiaomi Communications
+ACB3B5 Xiaomi Communications
+ACEB69 Xiaomi Communications
+B00CD7 Xiaomi Communications
+B04B5A Xiaomi Communications
+B0761B Xiaomi Communications
+B07C2C Xiaomi Communications
+B0C170 Xiaomi Communications
+B0E235 Xiaomi Communications
+B42AC3 Xiaomi Communications
+B4791B Xiaomi Communications
+B85384 Xiaomi Communications
+BC2091 Xiaomi Communications
+BC3B59 Xiaomi Communications
+BC5436 Xiaomi Communications
+BCA5A9 Xiaomi Communications
+BCC61F Xiaomi Communications
+C015D0 Xiaomi Communications
+C03F4D Xiaomi Communications
+C04E0F Xiaomi Communications
+C06C0D Xiaomi Communications
+C09F05 Xiaomi Communications
+C0EACB Xiaomi Communications
+C0F1E4 Xiaomi Communications
+C0FE45 Xiaomi Communications
+C4173E Xiaomi Communications
+C44044 Xiaomi Communications
+C46AB3 Xiaomi Communications
+C4710F Xiaomi Communications
+C4824E Xiaomi Communications
+C4F2E6 Xiaomi Communications
+C80E14 Xiaomi Communications
+C824F1 Xiaomi Communications
+C84D66 Xiaomi Communications
+C88326 Xiaomi Communications
+C8A70A Xiaomi Communications
+C8B21E Xiaomi Communications
+C8C23A Xiaomi Communications
+C8F733 Xiaomi Communications
+CC25F1 Xiaomi Communications
+CC4649 Xiaomi Communications
+CC5787 Xiaomi Communications
+CC9B3F Xiaomi Communications
+D00B5F Xiaomi Communications
+D01B84 Xiaomi Communications
+D022BE Xiaomi Communications
+D04C43 Xiaomi Communications
+D0761A Xiaomi Communications
+D09420 Xiaomi Communications
+D0A311 Xiaomi Communications
+D0AE05 Xiaomi Communications
+D0C1BF Xiaomi Communications
+D0CEC0 Xiaomi Communications
+D0D818 Xiaomi Communications
+D0F06B Xiaomi Communications
+D40724 Xiaomi Communications
+D42496 Xiaomi Communications
+D42C3F Xiaomi Communications
+D4387A Xiaomi Communications
+D455FD Xiaomi Communications
+D4709C Xiaomi Communications
+D487D9 Xiaomi Communications
+D48D5A Xiaomi Communications
+D4907A Xiaomi Communications
+D4970B Xiaomi Communications
+D4A365 Xiaomi Communications
+D4B086 Xiaomi Communications
+D4B188 Xiaomi Communications
+D80DE0 Xiaomi Communications
+D810A5 Xiaomi Communications
+D8310B Xiaomi Communications
+D853EC Xiaomi Communications
+D861CF Xiaomi Communications
+D87569 Xiaomi Communications
+D87B32 Xiaomi Communications
+D893D4 Xiaomi Communications
+D89C67 Xiaomi Communications
+D8A3D1 Xiaomi Communications
+D8ADE0 Xiaomi Communications
+D8B85D Xiaomi Communications
+D8E374 Xiaomi Communications
+DC59E5 Xiaomi Communications
+DC72B1 Xiaomi Communications
+DCB722 Xiaomi Communications
+E01BAC Xiaomi Communications
+E0557D Xiaomi Communications
+E05A06 Xiaomi Communications
+E060A4 Xiaomi Communications
+E0AD97 Xiaomi Communications
+E0BB96 Xiaomi Communications
+E0CC3A Xiaomi Communications
+E4275C Xiaomi Communications
+E42FDE Xiaomi Communications
+E45691 Xiaomi Communications
+E45E1B Xiaomi Communications
+E467BA Xiaomi Communications
+E4690A Xiaomi Communications
+E48C9F Xiaomi Communications
+E4981C Xiaomi Communications
+E4A13B Xiaomi Communications
+E4B6E6 Xiaomi Communications
+E4CA12 Xiaomi Communications
+E4D98C Xiaomi Communications
+E4F4B6 Xiaomi Communications
+E8098B Xiaomi Communications
+E834C0 Xiaomi Communications
+E85FB4 Xiaomi Communications
+E87EEF Xiaomi Communications
+E8945C Xiaomi Communications
+E8B0E2 Xiaomi Communications
+E8BC93 Xiaomi Communications
+ECBD09 Xiaomi Communications
+F01C2B Xiaomi Communications
+F01D90 Xiaomi Communications
+F02823 Xiaomi Communications
+F039A3 Xiaomi Communications
+F04F7C Xiaomi Communications
+F05D68 Xiaomi Communications
+F064B5 Xiaomi Communications
+F07F92 Xiaomi Communications
+F0A763 Xiaomi Communications
+F0B429 Xiaomi Communications
+F0E6D8 Xiaomi Communications
+F0F5F9 Xiaomi Communications
+F41F88 Xiaomi Communications
+F435D1 Xiaomi Communications
+F437B6 Xiaomi Communications
+F466E4 Xiaomi Communications
+F4853A Xiaomi Communications
+F48E92 Xiaomi Communications
+F4994C Xiaomi Communications
+F4A6A3 Xiaomi Communications
+F4B04A Xiaomi Communications
+F4CCD0 Xiaomi Communications
+F4DBE3 Xiaomi Communications
+F4E57D Xiaomi Communications
+F4FB46 Xiaomi Communications
+F819A8 Xiaomi Communications
+F81C95 Xiaomi Communications
+F83EEE Xiaomi Communications
+F843EF Xiaomi Communications
+F85F69 Xiaomi Communications
+F86DD7 Xiaomi Communications
+F88A3C Xiaomi Communications
+F8B1DD Xiaomi Communications
+F8C975 Xiaomi Communications
+F8D98E Xiaomi Communications
+F8E4FB Xiaomi Communications
+FC3431 Xiaomi Communications
+FC4345 Xiaomi Communications
+FC508B Xiaomi Communications
+FC5AB5 Xiaomi Communications
+FC643A Xiaomi Communications
+FC942E Xiaomi Communications
+FCA9B0 Xiaomi Communications
+
+# --- Beijing Xiaomi Mobile Software (小米移动软件) ---
+046761 Beijing Xiaomi Mobile Software
+047A0B Beijing Xiaomi Electronics
+04AE47 Beijing Xiaomi Mobile Software
+14907A Beijing Xiaomi Mobile Software
+14D881 Beijing Xiaomi Mobile Software
+1CEAAC Beijing Xiaomi Mobile Software
+246477 Beijing Xiaomi Mobile Software
+2C195C Beijing Xiaomi Mobile Software
+34F015 Beijing Xiaomi Mobile Software
+34FA1C Beijing Xiaomi Mobile Software
+44F770 Beijing Xiaomi Mobile Software
+504F3B Beijing Xiaomi Mobile Software
+50926A Beijing Xiaomi Mobile Software
+50FE39 Beijing Xiaomi Mobile Software
+58EA1F Beijing Xiaomi Mobile Software
+90FB5D Beijing Xiaomi Mobile Software
+98171A Beijing Xiaomi Mobile Software
+98E081 Beijing Xiaomi Mobile Software
+A4BA70 Beijing Xiaomi Mobile Software
+CC033D Beijing Xiaomi Mobile Software
+CCDA20 Beijing Xiaomi Mobile Software
+D4438A Beijing Xiaomi Mobile Software
+D4532A Beijing Xiaomi Mobile Software
+E41B43 Beijing Xiaomi Mobile Software
+E4FE43 Beijing Xiaomi Mobile Software
+F88306 Beijing Xiaomi Mobile Software
+
+# --- Redmi (红米, Xiaomi sub-brand) ---
+083E8E Redmi
+0C2FC7 Redmi
+147DF9 Redmi
+186BC3 Redmi
+1C4A43 Redmi
+1C6A73 Redmi
+20EFBD Redmi
+245DD4 Redmi
+2865A1 Redmi
+302DE8 Redmi
+3499DC Redmi
+38826B Redmi
+38B3A0 Redmi
+3C95CC Redmi
+40A716 Redmi
+44DB4E Redmi
+4CBD06 Redmi
+50E159 Redmi
+5429E8 Redmi
+54B624 Redmi
+60038C Redmi
+646DE6 Redmi
+68EB82 Redmi
+702F97 Redmi
+70D3A4 Redmi
+74F5B6 Redmi
+7C3EE4 Redmi
+843E50 Redmi
+8884DD Redmi
+889A39 Redmi
+8C1D96 Redmi
+9022C5 Redmi
+90551B Redmi
+98F5A9 Redmi
+A44E2D Redmi
+A895B0 Redmi
+B04E26 Redmi
+B81EA0 Redmi
+C026E5 Redmi
+C4313A Redmi
+C43EC5 Redmi
+C8B1CD Redmi
+CC65F0 Redmi
+D0C2B6 Redmi
+D42F23 Redmi
+D8931C Redmi
+DC165E Redmi
+E0BD9B Redmi
+E47FC6 Redmi
+E4A6F2 Redmi
+E80D4C Redmi
+EC8A4C Redmi
+F028B3 Redmi
+F862AA Redmi
+FCD9F2 Redmi
+
+# --- Huawei Technologies (华为技术) ---
+001882 Huawei Technologies
+001E10 Huawei Technologies
+0022A1 Huawei Symantec Technologies
+002568 Huawei Technologies
+00259E Huawei Technologies
+002EC7 Huawei Technologies
+0034FE Huawei Technologies
+003DE1 Huawei Device
+00464B Huawei Technologies
+004B0D Huawei Device
+004F1A Huawei Technologies
+00566D Huawei Device
+005A13 Huawei Technologies
+006151 Huawei Technologies
+006619 Huawei Device
+00664B Huawei Technologies
+00682B Huawei Device
+006B6F Huawei Technologies
+008320 Huawei Device
+008A55 Huawei Device
+008DFE Huawei Device
+00901B Huawei Technologies
+0090A5 Huawei Device
+00991D Huawei Technologies
+009A4D Huawei Technologies
+00A91D Huawei Technologies
+00B035 Huawei Technologies
+00BB01 Huawei Technologies
+00C1B2 Huawei Technologies
+00C610 Huawei Technologies
+00CC05 Huawei Technologies
+00D0D1 Huawei Technologies
+00D9D3 Huawei Technologies
+00E0FC Huawei Technologies
+00E12F Huawei Technologies
+00F5FD Huawei Technologies
+0455B8 Huawei Technologies
+04749E Huawei Technologies
+04BE58 Huawei Technologies
+0816E3 Huawei Technologies
+08D945 Huawei Technologies
+08FD58 Huawei Technologies
+0C07F3 Huawei Technologies
+0C8BA2 Huawei Technologies
+10490E Huawei Technologies
+1052BD Huawei Technologies
+1067A3 Huawei Technologies
+1088D3 Huawei Technologies
+1094EF Huawei Technologies
+10CD54 Huawei Technologies
+149AA3 Huawei Technologies
+14B903 Huawei Technologies
+180BD0 Huawei Technologies
+183386 Huawei Technologies
+18B657 Huawei Technologies
+1C99DB Huawei Technologies
+1CFC2A Huawei Technologies
+1CFFAD Huawei Technologies
+2014C4 Huawei Technologies
+201E1D Huawei Technologies
+209BDD Huawei Technologies
+2429B0 Huawei Technologies
+246078 Huawei Technologies
+28353A Huawei Technologies
+2896B0 Huawei Technologies
+28D6EC Huawei Technologies
+28DCC3 Huawei Technologies
+2C36F2 Huawei Technologies
+2CECA6 Huawei Technologies
+30294B Huawei Technologies
+3061A2 Huawei Technologies
+307A05 Huawei Technologies
+
+# --- Huawei Device (华为终端 - phones, tablets, wearables) ---
+04801A Huawei Device
+0894EC Huawei Device
+08B3D6 Huawei Device
+0C0ECB Huawei Device
+0CB5B3 Huawei Device
+0CB78E Huawei Device
+100D8C Huawei Device
+1086F4 Huawei Device
+10BC36 Huawei Device
+1449C5 Huawei Device
+1C0EAF Huawei Device
+1C42C2 Huawei Device
+20AEB6 Huawei Device
+20E525 Huawei Device
+2427E5 Huawei Device
+244885 Huawei Device
+2462C6 Huawei Device
+247645 Huawei Device
+2836F0 Huawei Device
+2845AC Huawei Device
+2C0D27 Huawei Device
+2C3AB1 Huawei Device
+2C63A1 Huawei Device
+30E4D8 Huawei Device
+30EB15 Huawei Device
+344EE2 Huawei Device
+348A3B Huawei Device
+34F5D7 Huawei Device
+384DD2 Huawei Device
+3C240A Huawei Device
+3C381F Huawei Device
+401CD4 Huawei Device
+4024D2 Huawei Device
+4405B8 Huawei Device
+44B3C5 Huawei Device
+483584 Huawei Device
+484996 Huawei Device
+48FC07 Huawei Device
+4C2B3B Huawei Device
+4CCA95 Huawei Device
+4CDE48 Huawei Device
+4CF475 Huawei Device
+545618 Huawei Device
+54735A Huawei Device
+54DD21 Huawei Device
+58B18F Huawei Device
+58FB3E Huawei Device
+5C8505 Huawei Device
+605FAA Huawei Device
+608306 Huawei Device
+60B0E8 Huawei Device
+64D562 Huawei Device
+6822E5 Huawei Device
+684C25 Huawei Device
+68951B Huawei Device
+689B43 Huawei Device
+6C60D0 Huawei Device
+B4E5C5 Huawei Device
+
+# --- Honor (荣耀, Huawei sub-brand) ---
+0CF405 Honor
+146E5A Honor
+1C6C3C Honor
+1CE542 Honor
+247F20 Honor
+28B5D3 Honor
+2CFAA2 Honor
+3460F4 Honor
+34EF8C Honor
+389303 Honor
+40FC89 Honor
+445BD0 Honor
+44B3C5 Honor
+483F32 Honor
+4897DE Honor
+50472B Honor
+5479C5 Honor
+583CA0 Honor
+5871A5 Honor
+6090C4 Honor
+60DE93 Honor
+6849B1 Honor
+6C4F03 Honor
+743F5E Honor
+74A8C5 Honor
+7C7D9D Honor
+803A7C Honor
+80E1BF Honor
+8C4C8D Honor
+90507B Honor
+906FD2 Honor
+90B9A7 Honor
+943F81 Honor
+98243E Honor
+9C5F9E Honor
+A01D0A Honor
+A039C9 Honor
+A0A763 Honor
+A4C79E Honor
+A866BD Honor
+B06DFD Honor
+B08184 Honor
+B4138B Honor
+C0035B Honor
+C04849 Honor
+C0B339 Honor
+C85AB3 Honor
+CC49E8 Honor
+D0B522 Honor
+D81D69 Honor
+DC4B6C Honor
+E047D6 Honor
+E09F2E Honor
+E4F0B5 Honor
+E85E53 Honor
+E89BC3 Honor
+EC88E2 Honor
+F08380 Honor
+F0F493 Honor
+F4CAE5 Honor
+F8573E Honor
+F88BC1 Honor
+FC6D06 Honor
+
+# --- Guangdong OPPO Mobile Telecommunications (欧珀) ---
+00CAE0 Guangdong Oppo Mobile Telecommunications
+042405 Guangdong Oppo Mobile Telecommunications
+04DBD9 Guangdong Oppo Mobile Telecommunications
+084ACF Guangdong Oppo Mobile Telecommunications
+08DD03 Guangdong Oppo Mobile Telecommunications
+0C938F Guangdong Oppo Mobile Telecommunications
+0CBD75 Guangdong Oppo Mobile Telecommunications
+1016B1 Guangdong Oppo Mobile Telecommunications
+1071FA Guangdong Oppo Mobile Telecommunications
+14472D Guangdong Oppo Mobile Telecommunications
+145E69 Guangdong Oppo Mobile Telecommunications
+149BF3 Guangdong Oppo Mobile Telecommunications
+14C697 Guangdong Oppo Mobile Telecommunications
+18D0C5 Guangdong Oppo Mobile Telecommunications
+18D717 Guangdong Oppo Mobile Telecommunications
+1C1FD8 Guangdong Oppo Mobile Telecommunications
+1C449D Guangdong Oppo Mobile Telecommunications
+1CB3C0 Guangdong Oppo Mobile Telecommunications
+1CCE53 Guangdong Oppo Mobile Telecommunications
+1CDEE2 Guangdong Oppo Mobile Telecommunications
+2002AF Guangdong Oppo Mobile Telecommunications
+203AF2 Guangdong Oppo Mobile Telecommunications
+2079F4 Guangdong Oppo Mobile Telecommunications
+20B6C2 Guangdong Oppo Mobile Telecommunications
+20BE7B Guangdong Oppo Mobile Telecommunications
+20F0A3 Guangdong Oppo Mobile Telecommunications
+242B30 Guangdong Oppo Mobile Telecommunications
+243B0A Guangdong Oppo Mobile Telecommunications
+244CF0 Guangdong Oppo Mobile Telecommunications
+2475B3 Guangdong Oppo Mobile Telecommunications
+2876A6 Guangdong Oppo Mobile Telecommunications
+2892E4 Guangdong Oppo Mobile Telecommunications
+28DE90 Guangdong Oppo Mobile Telecommunications
+2C5A9B Guangdong Oppo Mobile Telecommunications
+2CCB66 Guangdong Oppo Mobile Telecommunications
+306DF9 Guangdong Oppo Mobile Telecommunications
+30D62B Guangdong Oppo Mobile Telecommunications
+30E934 Guangdong Oppo Mobile Telecommunications
+34021A Guangdong Oppo Mobile Telecommunications
+34114D Guangdong Oppo Mobile Telecommunications
+34288C Guangdong Oppo Mobile Telecommunications
+3449E3 Guangdong Oppo Mobile Telecommunications
+34E6AD Guangdong Oppo Mobile Telecommunications
+3814F3 Guangdong Oppo Mobile Telecommunications
+381CA5 Guangdong Oppo Mobile Telecommunications
+38549E Guangdong Oppo Mobile Telecommunications
+38824B Guangdong Oppo Mobile Telecommunications
+38BF57 Guangdong Oppo Mobile Telecommunications
+38E563 Guangdong Oppo Mobile Telecommunications
+3C32B9 Guangdong Oppo Mobile Telecommunications
+3C8E40 Guangdong Oppo Mobile Telecommunications
+3CBB2D Guangdong Oppo Mobile Telecommunications
+40305C Guangdong Oppo Mobile Telecommunications
+4060B0 Guangdong Oppo Mobile Telecommunications
+407C01 Guangdong Oppo Mobile Telecommunications
+409411 Guangdong Oppo Mobile Telecommunications
+40AB1B Guangdong Oppo Mobile Telecommunications
+40BA61 Guangdong Oppo Mobile Telecommunications
+40FBE9 Guangdong Oppo Mobile Telecommunications
+443623 Guangdong Oppo Mobile Telecommunications
+445FC8 Guangdong Oppo Mobile Telecommunications
+447E76 Guangdong Oppo Mobile Telecommunications
+449F7B Guangdong Oppo Mobile Telecommunications
+44A791 Guangdong Oppo Mobile Telecommunications
+44FEEF Guangdong Oppo Mobile Telecommunications
+480D47 Guangdong Oppo Mobile Telecommunications
+48438C Guangdong Oppo Mobile Telecommunications
+486051 Guangdong Oppo Mobile Telecommunications
+4882F1 Guangdong Oppo Mobile Telecommunications
+48A349 Guangdong Oppo Mobile Telecommunications
+48D890 Guangdong Oppo Mobile Telecommunications
+48EB0A Guangdong Oppo Mobile Telecommunications
+4C92D2 Guangdong Oppo Mobile Telecommunications
+4CC921 Guangdong Oppo Mobile Telecommunications
+50056E Guangdong Oppo Mobile Telecommunications
+504269 Guangdong Oppo Mobile Telecommunications
+50841B Guangdong Oppo Mobile Telecommunications
+50BFB9 Guangdong Oppo Mobile Telecommunications
+50E053 Guangdong Oppo Mobile Telecommunications
+541FCD Guangdong Oppo Mobile Telecommunications
+54252E Guangdong Oppo Mobile Telecommunications
+54410D Guangdong Oppo Mobile Telecommunications
+544FA8 Guangdong Oppo Mobile Telecommunications
+5458E3 Guangdong Oppo Mobile Telecommunications
+546A18 Guangdong Oppo Mobile Telecommunications
+54DD8E Guangdong Oppo Mobile Telecommunications
+58022A Guangdong Oppo Mobile Telecommunications
+58259F Guangdong Oppo Mobile Telecommunications
+58460E Guangdong Oppo Mobile Telecommunications
+58597B Guangdong Oppo Mobile Telecommunications
+58D891 Guangdong Oppo Mobile Telecommunications
+5CA191 Guangdong Oppo Mobile Telecommunications
+6012E1 Guangdong Oppo Mobile Telecommunications
+6034F2 Guangdong Oppo Mobile Telecommunications
+6074B4 Guangdong Oppo Mobile Telecommunications
+6089C3 Guangdong Oppo Mobile Telecommunications
+60A7B0 Guangdong Oppo Mobile Telecommunications
+60D4CA Guangdong Oppo Mobile Telecommunications
+60F663 Guangdong Oppo Mobile Telecommunications
+6424CD Guangdong Oppo Mobile Telecommunications
+646A52 Guangdong Oppo Mobile Telecommunications
+6479A8 Guangdong Oppo Mobile Telecommunications
+649AC9 Guangdong Oppo Mobile Telecommunications
+64D60D Guangdong Oppo Mobile Telecommunications
+680C27 Guangdong Oppo Mobile Telecommunications
+6810D1 Guangdong Oppo Mobile Telecommunications
+6823F4 Guangdong Oppo Mobile Telecommunications
+6834B4 Guangdong Oppo Mobile Telecommunications
+689E7B Guangdong Oppo Mobile Telecommunications
+6C1E90 Guangdong Oppo Mobile Telecommunications
+6C47AF Guangdong Oppo Mobile Telecommunications
+6C5104 Guangdong Oppo Mobile Telecommunications
+6CCF39 Guangdong Oppo Mobile Telecommunications
+7008C0 Guangdong Oppo Mobile Telecommunications
+702C1F Guangdong Oppo Mobile Telecommunications
+704A6D Guangdong Oppo Mobile Telecommunications
+708315 Guangdong Oppo Mobile Telecommunications
+70B1F1 Guangdong Oppo Mobile Telecommunications
+70BB58 Guangdong Oppo Mobile Telecommunications
+70D5D0 Guangdong Oppo Mobile Telecommunications
+70D98C Guangdong Oppo Mobile Telecommunications
+70DC2D Guangdong Oppo Mobile Telecommunications
+70F9A2 Guangdong Oppo Mobile Telecommunications
+7433F0 Guangdong Oppo Mobile Telecommunications
+743CF0 Guangdong Oppo Mobile Telecommunications
+745F00 Guangdong Oppo Mobile Telecommunications
+7472F2 Guangdong Oppo Mobile Telecommunications
+748FBF Guangdong Oppo Mobile Telecommunications
+74A9DC Guangdong Oppo Mobile Telecommunications
+74E147 Guangdong Oppo Mobile Telecommunications
+74ED6B Guangdong Oppo Mobile Telecommunications
+74FAC0 Guangdong Oppo Mobile Telecommunications
+78002D Guangdong Oppo Mobile Telecommunications
+780F5E Guangdong Oppo Mobile Telecommunications
+786CAB Guangdong Oppo Mobile Telecommunications
+789C85 Guangdong Oppo Mobile Telecommunications
+78A6D0 Guangdong Oppo Mobile Telecommunications
+78C65A Guangdong Oppo Mobile Telecommunications
+78D913 Guangdong Oppo Mobile Telecommunications
+7C0F09 Guangdong Oppo Mobile Telecommunications
+7C31E3 Guangdong Oppo Mobile Telecommunications
+7C41A1 Guangdong Oppo Mobile Telecommunications
+7CB733 Guangdong Oppo Mobile Telecommunications
+7CD181 Guangdong Oppo Mobile Telecommunications
+7CE2C6 Guangdong Oppo Mobile Telecommunications
+801E4C Guangdong Oppo Mobile Telecommunications
+803A2E Guangdong Oppo Mobile Telecommunications
+80584E Guangdong Oppo Mobile Telecommunications
+80C98C Guangdong Oppo Mobile Telecommunications
+80E2DF Guangdong Oppo Mobile Telecommunications
+80EA23 Guangdong Oppo Mobile Telecommunications
+84389C Guangdong Oppo Mobile Telecommunications
+84474A Guangdong Oppo Mobile Telecommunications
+84510D Guangdong Oppo Mobile Telecommunications
+846EB6 Guangdong Oppo Mobile Telecommunications
+84B293 Guangdong Oppo Mobile Telecommunications
+84BB5B Guangdong Oppo Mobile Telecommunications
+84E719 Guangdong Oppo Mobile Telecommunications
+88066E Guangdong Oppo Mobile Telecommunications
+882C3F Guangdong Oppo Mobile Telecommunications
+885E5E Guangdong Oppo Mobile Telecommunications
+8874F6 Guangdong Oppo Mobile Telecommunications
+888675 Guangdong Oppo Mobile Telecommunications
+88A8A8 Guangdong Oppo Mobile Telecommunications
+88C5C4 Guangdong Oppo Mobile Telecommunications
+88D25B Guangdong Oppo Mobile Telecommunications
+8C147B Guangdong Oppo Mobile Telecommunications
+8C2DD8 Guangdong Oppo Mobile Telecommunications
+8C3B85 Guangdong Oppo Mobile Telecommunications
+8C636D Guangdong Oppo Mobile Telecommunications
+8C7911 Guangdong Oppo Mobile Telecommunications
+8CBEBE Guangdong Oppo Mobile Telecommunications
+8CE14C Guangdong Oppo Mobile Telecommunications
+8CF16C Guangdong Oppo Mobile Telecommunications
+902E87 Guangdong Oppo Mobile Telecommunications
+904A28 Guangdong Oppo Mobile Telecommunications
+904CE5 Guangdong Oppo Mobile Telecommunications
+9087A0 Guangdong Oppo Mobile Telecommunications
+90A96E Guangdong Oppo Mobile Telecommunications
+90CDB0 Guangdong Oppo Mobile Telecommunications
+90D001 Guangdong Oppo Mobile Telecommunications
+90DD5F Guangdong Oppo Mobile Telecommunications
+90F660 Guangdong Oppo Mobile Telecommunications
+9413C0 Guangdong Oppo Mobile Telecommunications
+9423D1 Guangdong Oppo Mobile Telecommunications
+943E5C Guangdong Oppo Mobile Telecommunications
+9462A8 Guangdong Oppo Mobile Telecommunications
+946CC5 Guangdong Oppo Mobile Telecommunications
+9495A1 Guangdong Oppo Mobile Telecommunications
+94A9A8 Guangdong Oppo Mobile Telecommunications
+94C962 Guangdong Oppo Mobile Telecommunications
+94FB29 Guangdong Oppo Mobile Telecommunications
+980A3F Guangdong Oppo Mobile Telecommunications
+981CC3 Guangdong Oppo Mobile Telecommunications
+984A74 Guangdong Oppo Mobile Telecommunications
+984FEE Guangdong Oppo Mobile Telecommunications
+9850EB Guangdong Oppo Mobile Telecommunications
+98682B Guangdong Oppo Mobile Telecommunications
+9896C1 Guangdong Oppo Mobile Telecommunications
+989FE0 Guangdong Oppo Mobile Telecommunications
+98AF65 Guangdong Oppo Mobile Telecommunications
+98B667 Guangdong Oppo Mobile Telecommunications
+98BD80 Guangdong Oppo Mobile Telecommunications
+98EC65 Guangdong Oppo Mobile Telecommunications
+9C3EAA Guangdong Oppo Mobile Telecommunications
+9C5447 Guangdong Oppo Mobile Telecommunications
+9C62AB Guangdong Oppo Mobile Telecommunications
+9C812D Guangdong Oppo Mobile Telecommunications
+9C9B8C Guangdong Oppo Mobile Telecommunications
+9CAA5D Guangdong Oppo Mobile Telecommunications
+A00985 Guangdong Oppo Mobile Telecommunications
+A03A93 Guangdong Oppo Mobile Telecommunications
+A042D0 Guangdong Oppo Mobile Telecommunications
+A04BBB Guangdong Oppo Mobile Telecommunications
+A0722B Guangdong Oppo Mobile Telecommunications
+A081B0 Guangdong Oppo Mobile Telecommunications
+A0CA5E Guangdong Oppo Mobile Telecommunications
+A0CC40 Guangdong Oppo Mobile Telecommunications
+A0D65A Guangdong Oppo Mobile Telecommunications
+A0DFF3 Guangdong Oppo Mobile Telecommunications
+A407B2 Guangdong Oppo Mobile Telecommunications
+A40B08 Guangdong Oppo Mobile Telecommunications
+A41BC6 Guangdong Oppo Mobile Telecommunications
+A4380E Guangdong Oppo Mobile Telecommunications
+A45817 Guangdong Oppo Mobile Telecommunications
+A45B61 Guangdong Oppo Mobile Telecommunications
+A46D09 Guangdong Oppo Mobile Telecommunications
+A4753A Guangdong Oppo Mobile Telecommunications
+A48C32 Guangdong Oppo Mobile Telecommunications
+A49BB8 Guangdong Oppo Mobile Telecommunications
+A4A6E3 Guangdong Oppo Mobile Telecommunications
+A4D5C5 Guangdong Oppo Mobile Telecommunications
+A4F597 Guangdong Oppo Mobile Telecommunications
+A83E0C Guangdong Oppo Mobile Telecommunications
+A841F4 Guangdong Oppo Mobile Telecommunications
+A85D7C Guangdong Oppo Mobile Telecommunications
+A85FE4 Guangdong Oppo Mobile Telecommunications
+A86641 Guangdong Oppo Mobile Telecommunications
+A86BFB Guangdong Oppo Mobile Telecommunications
+A888CE Guangdong Oppo Mobile Telecommunications
+A89898 Guangdong Oppo Mobile Telecommunications
+A8B129 Guangdong Oppo Mobile Telecommunications
+A8F25A Guangdong Oppo Mobile Telecommunications
+A8F4B8 Guangdong Oppo Mobile Telecommunications
+AC45CA Guangdong Oppo Mobile Telecommunications
+AC5A58 Guangdong Oppo Mobile Telecommunications
+AC798D Guangdong Oppo Mobile Telecommunications
+AC8592 Guangdong Oppo Mobile Telecommunications
+AC945E Guangdong Oppo Mobile Telecommunications
+AC9E38 Guangdong Oppo Mobile Telecommunications
+ACA969 Guangdong Oppo Mobile Telecommunications
+ACC1F5 Guangdong Oppo Mobile Telecommunications
+ACC9B9 Guangdong Oppo Mobile Telecommunications
+ACE486 Guangdong Oppo Mobile Telecommunications
+B00D31 Guangdong Oppo Mobile Telecommunications
+B01145 Guangdong Oppo Mobile Telecommunications
+B01B7C Guangdong Oppo Mobile Telecommunications
+B02C57 Guangdong Oppo Mobile Telecommunications
+B03C69 Guangdong Oppo Mobile Telecommunications
+B046B4 Guangdong Oppo Mobile Telecommunications
+B04D08 Guangdong Oppo Mobile Telecommunications
+B05B9B Guangdong Oppo Mobile Telecommunications
+B05D64 Guangdong Oppo Mobile Telecommunications
+B066C1 Guangdong Oppo Mobile Telecommunications
+B0A102 Guangdong Oppo Mobile Telecommunications
+B0CCFE Guangdong Oppo Mobile Telecommunications
+B0D7C5 Guangdong Oppo Mobile Telecommunications
+B0F079 Guangdong Oppo Mobile Telecommunications
+B425E2 Guangdong Oppo Mobile Telecommunications
+B43255 Guangdong Oppo Mobile Telecommunications
+B43934 Guangdong Oppo Mobile Telecommunications
+B4427F Guangdong Oppo Mobile Telecommunications
+B44E2D Guangdong Oppo Mobile Telecommunications
+B4571C Guangdong Oppo Mobile Telecommunications
+B464A6 Guangdong Oppo Mobile Telecommunications
+B474C4 Guangdong Oppo Mobile Telecommunications
+B47D4A Guangdong Oppo Mobile Telecommunications
+B483C2 Guangdong Oppo Mobile Telecommunications
+B48DEE Guangdong Oppo Mobile Telecommunications
+B491EE Guangdong Oppo Mobile Telecommunications
+B4BE28 Guangdong Oppo Mobile Telecommunications
+B4CD27 Guangdong Oppo Mobile Telecommunications
+B4DCA2 Guangdong Oppo Mobile Telecommunications
+B4E454 Guangdong Oppo Mobile Telecommunications
+B4EC1D Guangdong Oppo Mobile Telecommunications
+B4F754 Guangdong Oppo Mobile Telecommunications
+B80B7B Guangdong Oppo Mobile Telecommunications
+B81632 Guangdong Oppo Mobile Telecommunications
+B82FE8 Guangdong Oppo Mobile Telecommunications
+B8355B Guangdong Oppo Mobile Telecommunications
+B83DDE Guangdong Oppo Mobile Telecommunications
+B846A6 Guangdong Oppo Mobile Telecommunications
+B853AC Guangdong Oppo Mobile Telecommunications
+B85A76 Guangdong Oppo Mobile Telecommunications
+B8743C Guangdong Oppo Mobile Telecommunications
+B8786B Guangdong Oppo Mobile Telecommunications
+B88147 Guangdong Oppo Mobile Telecommunications
+B886F5 Guangdong Oppo Mobile Telecommunications
+B88FEC Guangdong Oppo Mobile Telecommunications
+B8975A Guangdong Oppo Mobile Telecommunications
+B8B663 Guangdong Oppo Mobile Telecommunications
+B8BE6E Guangdong Oppo Mobile Telecommunications
+B8C96A Guangdong Oppo Mobile Telecommunications
+B8D4A3 Guangdong Oppo Mobile Telecommunications
+B8E8A4 Guangdong Oppo Mobile Telecommunications
+B8F080 Guangdong Oppo Mobile Telecommunications
+BC019E Guangdong Oppo Mobile Telecommunications
+BC0A51 Guangdong Oppo Mobile Telecommunications
+BC1069 Guangdong Oppo Mobile Telecommunications
+BC1D0E Guangdong Oppo Mobile Telecommunications
+BC2EA9 Guangdong Oppo Mobile Telecommunications
+BC3B31 Guangdong Oppo Mobile Telecommunications
+BC4A56 Guangdong Oppo Mobile Telecommunications
+BC5311 Guangdong Oppo Mobile Telecommunications
+BC5CB4 Guangdong Oppo Mobile Telecommunications
+BC61B0 Guangdong Oppo Mobile Telecommunications
+BC6BE2 Guangdong Oppo Mobile Telecommunications
+BC73AC Guangdong Oppo Mobile Telecommunications
+BC7BED Guangdong Oppo Mobile Telecommunications
+BC8030 Guangdong Oppo Mobile Telecommunications
+BC8670 Guangdong Oppo Mobile Telecommunications
+BC8CE8 Guangdong Oppo Mobile Telecommunications
+BCACD7 Guangdong Oppo Mobile Telecommunications
+BCC083 Guangdong Oppo Mobile Telecommunications
+BCEE4B Guangdong Oppo Mobile Telecommunications
+BCF2AF Guangdong Oppo Mobile Telecommunications
+BCF422 Guangdong Oppo Mobile Telecommunications
+C00EF8 Guangdong Oppo Mobile Telecommunications
+C01242 Guangdong Oppo Mobile Telecommunications
+C0207D Guangdong Oppo Mobile Telecommunications
+C02FCD Guangdong Oppo Mobile Telecommunications
+C0362C Guangdong Oppo Mobile Telecommunications
+C03EAA Guangdong Oppo Mobile Telecommunications
+C04610 Guangdong Oppo Mobile Telecommunications
+C04B06 Guangdong Oppo Mobile Telecommunications
+C05261 Guangdong Oppo Mobile Telecommunications
+C0587A Guangdong Oppo Mobile Telecommunications
+C06CC8 Guangdong Oppo Mobile Telecommunications
+C071CF Guangdong Oppo Mobile Telecommunications
+C0741D Guangdong Oppo Mobile Telecommunications
+C07D50 Guangdong Oppo Mobile Telecommunications
+C08775 Guangdong Oppo Mobile Telecommunications
+C08B45 Guangdong Oppo Mobile Telecommunications
+C09120 Guangdong Oppo Mobile Telecommunications
+C09450 Guangdong Oppo Mobile Telecommunications
+C09949 Guangdong Oppo Mobile Telecommunications
+C09B17 Guangdong Oppo Mobile Telecommunications
+C09F83 Guangdong Oppo Mobile Telecommunications
+C0A50E Guangdong Oppo Mobile Telecommunications
+C0B7E1 Guangdong Oppo Mobile Telecommunications
+C0BD68 Guangdong Oppo Mobile Telecommunications
+C0C169 Guangdong Oppo Mobile Telecommunications
+C0C48D Guangdong Oppo Mobile Telecommunications
+C0CCF5 Guangdong Oppo Mobile Telecommunications
+C0D388 Guangdong Oppo Mobile Telecommunications
+C0E2B1 Guangdong Oppo Mobile Telecommunications
+C0E86B Guangdong Oppo Mobile Telecommunications
+C0EC2D Guangdong Oppo Mobile Telecommunications
+C0F94E Guangdong Oppo Mobile Telecommunications
+C40B26 Guangdong Oppo Mobile Telecommunications
+C41F4E Guangdong Oppo Mobile Telecommunications
+C4250A Guangdong Oppo Mobile Telecommunications
+C42F0E Guangdong Oppo Mobile Telecommunications
+C43208 Guangdong Oppo Mobile Telecommunications
+C43658 Guangdong Oppo Mobile Telecommunications
+C43A4C Guangdong Oppo Mobile Telecommunications
+C43B10 Guangdong Oppo Mobile Telecommunications
+C44184 Guangdong Oppo Mobile Telecommunications
+C4470A Guangdong Oppo Mobile Telecommunications
+C44DD3 Guangdong Oppo Mobile Telecommunications
+C450F2 Guangdong Oppo Mobile Telecommunications
+C4545B Guangdong Oppo Mobile Telecommunications
+C45A9E Guangdong Oppo Mobile Telecommunications
+C46028 Guangdong Oppo Mobile Telecommunications
+C4635E Guangdong Oppo Mobile Telecommunications
+C465EC Guangdong Oppo Mobile Telecommunications
+C46B8F Guangdong Oppo Mobile Telecommunications
+C47220 Guangdong Oppo Mobile Telecommunications
+C47538 Guangdong Oppo Mobile Telecommunications
+C478DE Guangdong Oppo Mobile Telecommunications
+C47C42 Guangdong Oppo Mobile Telecommunications
+C4830F Guangdong Oppo Mobile Telecommunications
+C486B5 Guangdong Oppo Mobile Telecommunications
+C48A93 Guangdong Oppo Mobile Telecommunications
+C48E5B Guangdong Oppo Mobile Telecommunications
+C4910C Guangdong Oppo Mobile Telecommunications
+C49281 Guangdong Oppo Mobile Telecommunications
+C495DD Guangdong Oppo Mobile Telecommunications
+C4997B Guangdong Oppo Mobile Telecommunications
+C49DDD Guangdong Oppo Mobile Telecommunications
+C4A1CA Guangdong Oppo Mobile Telecommunications
+C4A42B Guangdong Oppo Mobile Telecommunications
+C4A70B Guangdong Oppo Mobile Telecommunications
+C4A95A Guangdong Oppo Mobile Telecommunications
+C4AD0C Guangdong Oppo Mobile Telecommunications
+C4B04B Guangdong Oppo Mobile Telecommunications
+C4B22B Guangdong Oppo Mobile Telecommunications
+C4B47B Guangdong Oppo Mobile Telecommunications
+C4B7D6 Guangdong Oppo Mobile Telecommunications
+C4BA1A Guangdong Oppo Mobile Telecommunications
+C4BD4A Guangdong Oppo Mobile Telecommunications
+C4C14B Guangdong Oppo Mobile Telecommunications
+C4C3E5 Guangdong Oppo Mobile Telecommunications
+C4C659 Guangdong Oppo Mobile Telecommunications
+C4C8DB Guangdong Oppo Mobile Telecommunications
+C4CB2B Guangdong Oppo Mobile Telecommunications
+C4CDA4 Guangdong Oppo Mobile Telecommunications
+C4D06D Guangdong Oppo Mobile Telecommunications
+C4D248 Guangdong Oppo Mobile Telecommunications
+C4D48B Guangdong Oppo Mobile Telecommunications
+C4D6BA Guangdong Oppo Mobile Telecommunications
+C4D917 Guangdong Oppo Mobile Telecommunications
+C4DB4A Guangdong Oppo Mobile Telecommunications
+C4DDD9 Guangdong Oppo Mobile Telecommunications
+C80AA8 Guangdong Oppo Mobile Telecommunications
+C814CC Guangdong Oppo Mobile Telecommunications
+C820F6 Guangdong Oppo Mobile Telecommunications
+C825D6 Guangdong Oppo Mobile Telecommunications
+C82CBE Guangdong Oppo Mobile Telecommunications
+C833F5 Guangdong Oppo Mobile Telecommunications
+C83B5E Guangdong Oppo Mobile Telecommunications
+C8441A Guangdong Oppo Mobile Telecommunications
+C84B76 Guangdong Oppo Mobile Telecommunications
+C8532A Guangdong Oppo Mobile Telecommunications
+C85A5E Guangdong Oppo Mobile Telecommunications
+C8603D Guangdong Oppo Mobile Telecommunications
+C865CB Guangdong Oppo Mobile Telecommunications
+C86C64 Guangdong Oppo Mobile Telecommunications
+C8731F Guangdong Oppo Mobile Telecommunications
+C87964 Guangdong Oppo Mobile Telecommunications
+C87F4C Guangdong Oppo Mobile Telecommunications
+C884C9 Guangdong Oppo Mobile Telecommunications
+C88A2E Guangdong Oppo Mobile Telecommunications
+C89132 Guangdong Oppo Mobile Telecommunications
+C896B4 Guangdong Oppo Mobile Telecommunications
+C89C3F Guangdong Oppo Mobile Telecommunications
+C8A098 Guangdong Oppo Mobile Telecommunications
+C8A3B6 Guangdong Oppo Mobile Telecommunications
+C8A71E Guangdong Oppo Mobile Telecommunications
+C8A964 Guangdong Oppo Mobile Telecommunications
+C8AC46 Guangdong Oppo Mobile Telecommunications
+C8AFA6 Guangdong Oppo Mobile Telecommunications
+C8B273 Guangdong Oppo Mobile Telecommunications
+C8B48E Guangdong Oppo Mobile Telecommunications
+C8B6F4 Guangdong Oppo Mobile Telecommunications
+C8B922 Guangdong Oppo Mobile Telecommunications
+C8BB3B Guangdong Oppo Mobile Telecommunications
+C8BDCA Guangdong Oppo Mobile Telecommunications
+C8C0AB Guangdong Oppo Mobile Telecommunications
+C8C2DA Guangdong Oppo Mobile Telecommunications
+C8C545 Guangdong Oppo Mobile Telecommunications
+C8C752 Guangdong Oppo Mobile Telecommunications
+C8C9B5 Guangdong Oppo Mobile Telecommunications
+C8CBB3 Guangdong Oppo Mobile Telecommunications
+C8CDF3 Guangdong Oppo Mobile Telecommunications
+C8D038 Guangdong Oppo Mobile Telecommunications
+C8D260 Guangdong Oppo Mobile Telecommunications
+C8D448 Guangdong Oppo Mobile Telecommunications
+C8D63B Guangdong Oppo Mobile Telecommunications
+C8D83B Guangdong Oppo Mobile Telecommunications
+C8DA94 Guangdong Oppo Mobile Telecommunications
+C8DCE3 Guangdong Oppo Mobile Telecommunications
+C8DEF5 Guangdong Oppo Mobile Telecommunications
+CC03F3 Guangdong Oppo Mobile Telecommunications
+CC0C1D Guangdong Oppo Mobile Telecommunications
+CC1539 Guangdong Oppo Mobile Telecommunications
+CC1E46 Guangdong Oppo Mobile Telecommunications
+CC2865 Guangdong Oppo Mobile Telecommunications
+CC3362 Guangdong Oppo Mobile Telecommunications
+CC3CAE Guangdong Oppo Mobile Telecommunications
+CC470B Guangdong Oppo Mobile Telecommunications
+CC50A7 Guangdong Oppo Mobile Telecommunications
+CC5963 Guangdong Oppo Mobile Telecommunications
+CC6135 Guangdong Oppo Mobile Telecommunications
+CC684D Guangdong Oppo Mobile Telecommunications
+CC6E20 Guangdong Oppo Mobile Telecommunications
+CC736F Guangdong Oppo Mobile Telecommunications
+CC7895 Guangdong Oppo Mobile Telecommunications
+CC7EF1 Guangdong Oppo Mobile Telecommunications
+CC8439 Guangdong Oppo Mobile Telecommunications
+CC88DE Guangdong Oppo Mobile Telecommunications
+CC8D1D Guangdong Oppo Mobile Telecommunications
+CC91E3 Guangdong Oppo Mobile Telecommunications
+CC9667 Guangdong Oppo Mobile Telecommunications
+CC9A9C Guangdong Oppo Mobile Telecommunications
+CC9F35 Guangdong Oppo Mobile Telecommunications
+CCA374 Guangdong Oppo Mobile Telecommunications
+CCA7C5 Guangdong Oppo Mobile Telecommunications
+CCAC24 Guangdong Oppo Mobile Telecommunications
+CCB083 Guangdong Oppo Mobile Telecommunications
+CCB49D Guangdong Oppo Mobile Telecommunications
+CCB8B3 Guangdong Oppo Mobile Telecommunications
+CCBCE0 Guangdong Oppo Mobile Telecommunications
+CCC109 Guangdong Oppo Mobile Telecommunications
+CCC535 Guangdong Oppo Mobile Telecommunications
+CCC92A Guangdong Oppo Mobile Telecommunications
+CCCD58 Guangdong Oppo Mobile Telecommunications
+CCD182 Guangdong Oppo Mobile Telecommunications
+CCD5BA Guangdong Oppo Mobile Telecommunications
+CCD9E9 Guangdong Oppo Mobile Telecommunications
+CCDE10 Guangdong Oppo Mobile Telecommunications
+CCE243 Guangdong Oppo Mobile Telecommunications
+CCE667 Guangdong Oppo Mobile Telecommunications
+CCEA96 Guangdong Oppo Mobile Telecommunications
+CCEED7 Guangdong Oppo Mobile Telecommunications
+CCF308 Guangdong Oppo Mobile Telecommunications
+CCF73F Guangdong Oppo Mobile Telecommunications
+D020DD Guangdong Oppo Mobile Telecommunications
+D860C5 Guangdong Oppo Mobile Telecommunications
+E0426D Guangdong Oppo Mobile Telecommunications
+E868B1 Guangdong Oppo Mobile Telecommunications
+EC2F90 Guangdong Oppo Mobile Telecommunications
+F80C9A Guangdong Oppo Mobile Telecommunications
+
+# --- Realme (真我, OPPO sub-brand) ---
+0C9043 Realme Chongqing Mobile Telecommunications
+0CE67C Realme Chongqing Mobile Telecommunications
+1082D7 Realme Chongqing Mobile Telecommunications
+10F605 Realme Chongqing Mobile Telecommunications
+
+# --- OnePlus (一加, BBK/OPPO sub-brand) ---
+0016E7 OnePlus
+0059F4 OnePlus
+00AF6F OnePlus
+04460D OnePlus
+047210 OnePlus
+0820B3 OnePlus
+08D99D OnePlus
+0C1135 OnePlus
+0C48C6 OnePlus
+0CD3B5 OnePlus
+0CE432 OnePlus
+102AB3 OnePlus
+109E41 OnePlus
+143B45 OnePlus
+1478D1 OnePlus
+14D074 OnePlus
+1827E2 OnePlus
+18B7C6 OnePlus
+18F0E4 OnePlus
+1C3AAF OnePlus
+1C59D3 OnePlus
+1C6A76 OnePlus
+1C97A2 OnePlus
+1CCAE1 OnePlus
+20414A OnePlus
+2056F3 OnePlus
+205E6B OnePlus
+20A8B0 OnePlus
+2469A5 OnePlus
+2486C7 OnePlus
+280A9D OnePlus
+2811A4 OnePlus
+28435A OnePlus
+28C0F0 OnePlus
+28D9C8 OnePlus
+28EDE1 OnePlus
+28F08B OnePlus
+2C11B0 OnePlus
+30292C OnePlus
+303633 OnePlus
+3059B2 OnePlus
+306AC2 OnePlus
+30B1E0 OnePlus
+30D659 OnePlus
+30E315 OnePlus
+3403DE OnePlus
+3440B5 OnePlus
+345DBB OnePlus
+346F92 OnePlus
+347A60 OnePlus
+34AFB2 OnePlus
+34BE00 OnePlus
+34D7B4 OnePlus
+34E933 OnePlus
+382BA7 OnePlus
+3840D5 OnePlus
+38569A OnePlus
+388A4E OnePlus
+38A1C5 OnePlus
+38CB7A OnePlus
+3C05F3 OnePlus
+3C0DFC OnePlus
+3C28A8 OnePlus
+3C37A5 OnePlus
+3C4235 OnePlus
+3C54B1 OnePlus
+3C9310 OnePlus
+401B5F OnePlus
+4049B0 OnePlus
+407AF6 OnePlus
+409B69 OnePlus
+40A3B5 OnePlus
+40EDD6 OnePlus
+441E91 OnePlus
+4430A5 OnePlus
+444C79 OnePlus
+4456B7 OnePlus
+447682 OnePlus
+44A857 OnePlus
+44C8D3 OnePlus
+48010A OnePlus
+482587 OnePlus
+4853AE OnePlus
+486EF9 OnePlus
+48929A OnePlus
+48A86C OnePlus
+48CA43 OnePlus
+48E72F OnePlus
+48F64A OnePlus
+4C4B68 OnePlus
+50210B OnePlus
+5046AD OnePlus
+506265 OnePlus
+507602 OnePlus
+509432 OnePlus
+50C819 OnePlus
+50EECE OnePlus
+5422F8 OnePlus
+543C9B OnePlus
+545D24 OnePlus
+54719D OnePlus
+549CAE OnePlus
+54BEF0 OnePlus
+54D9E6 OnePlus
+54FBE2 OnePlus
+580D65 OnePlus
+581872 OnePlus
+5835F0 OnePlus
+585D46 OnePlus
+58903C OnePlus
+58A0C3 OnePlus
+58AFCE OnePlus
+58C977 OnePlus
+58E378 OnePlus
+58ED4E OnePlus
+5C17A6 OnePlus
+5C2EFB OnePlus
+5C46E0 OnePlus
+5C6051 OnePlus
+5C750A OnePlus
+5C8E6C OnePlus
+5CA6F0 OnePlus
+5CBF8F OnePlus
+5CD4EB OnePlus
+5CE992 OnePlus
+60242E OnePlus
+603EE0 OnePlus
+605B13 OnePlus
+606C9E OnePlus
+608328 OnePlus
+6096CC OnePlus
+60B2FD OnePlus
+60C60A OnePlus
+60DC4B OnePlus
+60F5E8 OnePlus
+6409A9 OnePlus
+64226A OnePlus
+643DBD OnePlus
+6458DB OnePlus
+6474BE OnePlus
+649181 OnePlus
+64A8E4 OnePlus
+64C30B OnePlus
+64DBCF OnePlus
+64F2F4 OnePlus
+6807C4 OnePlus
+6820C1 OnePlus
+6836BE OnePlus
+685106 OnePlus
+686CE3 OnePlus
+6889C6 OnePlus
+68A44D OnePlus
+68B883 OnePlus
+68CEFE OnePlus
+68E4DC OnePlus
+68FB6F OnePlus
+6C0B11 OnePlus
+6C2153 OnePlus
+6C377E OnePlus
+6C5292 OnePlus
+6C6D34 OnePlus
+6C833A OnePlus
+6C9BB5 OnePlus
+6CB0B6 OnePlus
+6CC52F OnePlus
+6CDA9C OnePlus
+6CF1E5 OnePlus
+700F2A OnePlus
+7026D5 OnePlus
+703E94 OnePlus
+705863 OnePlus
+706F81 OnePlus
+7089A8 OnePlus
+70A6CC OnePlus
+70BF92 OnePlus
+70DA17 OnePlus
+70EE0C OnePlus
+74035A OnePlus
+741BB3 OnePlus
+7433FF OnePlus
+7447B6 OnePlus
+7463E4 OnePlus
+747EF7 OnePlus
+749B3B OnePlus
+74B10D OnePlus
+74C67C OnePlus
+74DA38 OnePlus
+74F060 OnePlus
+
+# --- vivo Mobile Communication (维沃) ---
+009CC0 vivo Mobile Communication
+041FB8 vivo Mobile Communication
+0823B2 vivo Mobile Communication
+087F98 vivo Mobile Communication
+08B3AF vivo Mobile Communication
+08FA79 vivo Mobile Communication
+0C20D3 vivo Mobile Communication
+0C6046 vivo Mobile Communication
+10BC97 vivo Mobile Communication
+10F681 vivo Mobile Communication
+14DD9C vivo Mobile Communication
+1802AE vivo Mobile Communication
+180403 vivo Mobile Communication
+18E29F vivo Mobile Communication
+18E777 vivo Mobile Communication
+1C112F vivo Mobile Communication
+1C7A43 vivo Mobile Communication
+1C7ACF vivo Mobile Communication
+1CDA27 vivo Mobile Communication
+20311C vivo Mobile Communication
+203B69 vivo Mobile Communication
+205D47 vivo Mobile Communication
+206BD5 vivo Mobile Communication
+207454 vivo Mobile Communication
+20E46F vivo Mobile Communication
+20F77C vivo Mobile Communication
+242361 vivo Mobile Communication
+2482CA vivo Mobile Communication
+283166 vivo Mobile Communication
+28A53F vivo Mobile Communication
+28BE43 vivo Mobile Communication
+28FAA0 vivo Mobile Communication
+2C4881 vivo Mobile Communication
+2C9D65 vivo Mobile Communication
+2CFFEE vivo Mobile Communication
+3041DB vivo Mobile Communication
+309435 vivo Mobile Communication
+30AFCE vivo Mobile Communication
+340557 vivo Mobile Communication
+34E911 vivo Mobile Communication
+38384B vivo Mobile Communication
+3839CD vivo Mobile Communication
+386EA2 vivo Mobile Communication
+3C86D1 vivo Mobile Communication
+3CA2C3 vivo Mobile Communication
+3CA348 vivo Mobile Communication
+3CA581 vivo Mobile Communication
+3CA616 vivo Mobile Communication
+3CA80A vivo Mobile Communication
+3CB6B7 vivo Mobile Communication
+4045A0 vivo Mobile Communication
+405846 vivo Mobile Communication
+449EF9 vivo Mobile Communication
+44FB76 vivo Mobile Communication
+488764 vivo Mobile Communication
+488AE8 vivo Mobile Communication
+4C9992 vivo Mobile Communication
+4CC00A vivo Mobile Communication
+50E7B7 vivo Mobile Communication
+540E2D vivo Mobile Communication
+541149 vivo Mobile Communication
+5419C8 vivo Mobile Communication
+5C1CB9 vivo Mobile Communication
+6091F3 vivo Mobile Communication
+642C0F vivo Mobile Communication
+64447B vivo Mobile Communication
+64EC65 vivo Mobile Communication
+68628A vivo Mobile Communication
+6C1ED7 vivo Mobile Communication
+6C24A6 vivo Mobile Communication
+6C40E8 vivo Mobile Communication
+6CC36A vivo Mobile Communication
+6CD199 vivo Mobile Communication
+6CD94C vivo Mobile Communication
+70357B vivo Mobile Communication
+7047E9 vivo Mobile Communication
+70788B vivo Mobile Communication
+708F47 vivo Mobile Communication
+70B7AA vivo Mobile Communication
+70D923 vivo Mobile Communication
+743357 vivo Mobile Communication
+74C530 vivo Mobile Communication
+7834FD vivo Mobile Communication
+7CC518 vivo Mobile Communication
+808A8B vivo Mobile Communication
+80BF21 vivo Mobile Communication
+88548E vivo Mobile Communication
+886AB1 vivo Mobile Communication
+88F7BF vivo Mobile Communication
+8C49B6 vivo Mobile Communication
+8C6794 vivo Mobile Communication
+8CDF2C vivo Mobile Communication
+8CE042 vivo Mobile Communication
+904C02 vivo Mobile Communication
+90ADF7 vivo Mobile Communication
+90C54A vivo Mobile Communication
+90D473 vivo Mobile Communication
+94147A vivo Mobile Communication
+9431CB vivo Mobile Communication
+946372 vivo Mobile Communication
+982F86 vivo Mobile Communication
+987EE3 vivo Mobile Communication
+98C8B8 vivo Mobile Communication
+9C8281 vivo Mobile Communication
+9CA5C0 vivo Mobile Communication
+9CE82B vivo Mobile Communication
+9CFBD5 vivo Mobile Communication
+A022DE vivo Mobile Communication
+A490CE vivo Mobile Communication
+A80556 vivo Mobile Communication
+A81306 vivo Mobile Communication
+A86F36 vivo Mobile Communication
+AC401E vivo Mobile Communication
+B03366 vivo Mobile Communication
+B40FB3 vivo Mobile Communication
+B46E10 vivo Mobile Communication
+B49D6B vivo Mobile Communication
+B80716 vivo Mobile Communication
+B8D43E vivo Mobile Communication
+BC2F3D vivo Mobile Communication
+BC3ECB vivo Mobile Communication
+BC9829 vivo Mobile Communication
+C04754 vivo Mobile Communication
+C46699 vivo Mobile Communication
+C4ABB2 vivo Mobile Communication
+CC812A vivo Mobile Communication
+D09CAE vivo Mobile Communication
+D463DE vivo Mobile Communication
+D498B9 vivo Mobile Communication
+D4BBC8 vivo Mobile Communication
+D4CBCC vivo Mobile Communication
+D4ECAB vivo Mobile Communication
+D80E29 vivo Mobile Communication
+D84A83 vivo Mobile Communication
+D8A315 vivo Mobile Communication
+DC1AC5 vivo Mobile Communication
+DC2D04 vivo Mobile Communication
+DC31D1 vivo Mobile Communication
+DC8C1B vivo Mobile Communication
+E013B5 vivo Mobile Communication
+E0DDC0 vivo Mobile Communication
+E441D4 vivo Mobile Communication
+E45768 vivo Mobile Communication
+E45AA2 vivo Mobile Communication
+E49652 vivo Mobile Communication
+E4F1D4 vivo Mobile Communication
+EC2150 vivo Mobile Communication
+EC7D11 vivo Mobile Communication
+ECDF3A vivo Mobile Communication
+F01B6C vivo Mobile Communication
+F42981 vivo Mobile Communication
+F463FC vivo Mobile Communication
+F470AB vivo Mobile Communication
+F4B7B3 vivo Mobile Communication
+F4BBC7 vivo Mobile Communication
+F8E7A0 vivo Mobile Communication
+FC1A11 vivo Mobile Communication
+FC1D2A vivo Mobile Communication
+FCABD0 vivo Mobile Communication
+FCBE7B vivo Mobile Communication
+
+# --- iQOO (vivo sub-brand) ---
+043D5C iQOO Communication Technology
+048617 iQOO Communication Technology
+08C7B1 iQOO Communication Technology
+0C68D6 iQOO Communication Technology
+1069AE iQOO Communication Technology
+148A6B iQOO Communication Technology
+14CACF iQOO Communication Technology
+188741 iQOO Communication Technology
+1C2AE9 iQOO Communication Technology
+1C5A0A iQOO Communication Technology
+1C9413 iQOO Communication Technology
+20B3B4 iQOO Communication Technology
+245F8E iQOO Communication Technology
+248BE5 iQOO Communication Technology
+28F9A9 iQOO Communication Technology
+2C7B5A iQOO Communication Technology
+3039F4 iQOO Communication Technology
+345259 iQOO Communication Technology
+3865B5 iQOO Communication Technology
+38B2B0 iQOO Communication Technology
+3C10E6 iQOO Communication Technology
+3C2F47 iQOO Communication Technology
+3C9D8B iQOO Communication Technology
+3CE520 iQOO Communication Technology
+40E1D6 iQOO Communication Technology
+4443D9 iQOO Communication Technology
+485A8A iQOO Communication Technology
+48ECC3 iQOO Communication Technology
+4C77F4 iQOO Communication Technology
+50ED11 iQOO Communication Technology
+543B93 iQOO Communication Technology
+549B4B iQOO Communication Technology
+5842E5 iQOO Communication Technology
+58BA59 iQOO Communication Technology
+5C7D9D iQOO Communication Technology
+5CC63C iQOO Communication Technology
+608112 iQOO Communication Technology
+640CDE iQOO Communication Technology
+64777B iQOO Communication Technology
+64E8C8 iQOO Communication Technology
+684A58 iQOO Communication Technology
+6899B3 iQOO Communication Technology
+6C2B75 iQOO Communication Technology
+6C5E16 iQOO Communication Technology
+6CBE37 iQOO Communication Technology
+7453E6 iQOO Communication Technology
+74BCF7 iQOO Communication Technology
+74F00B iQOO Communication Technology
+7836CA iQOO Communication Technology
+7866DE iQOO Communication Technology
+78DAE4 iQOO Communication Technology
+7C3F8B iQOO Communication Technology
+8034AD iQOO Communication Technology
+806C5C iQOO Communication Technology
+80A45C iQOO Communication Technology
+842DC5 iQOO Communication Technology
+849EBE iQOO Communication Technology
+84B68B iQOO Communication Technology
+84EF29 iQOO Communication Technology
+88370C iQOO Communication Technology
+8868C7 iQOO Communication Technology
+88A1F3 iQOO Communication Technology
+8C5C3E iQOO Communication Technology
+8C8EAF iQOO Communication Technology
+8CDE52 iQOO Communication Technology
+900D76 iQOO Communication Technology
+9043E7 iQOO Communication Technology
+907D56 iQOO Communication Technology
+90A1CB iQOO Communication Technology
+90D749 iQOO Communication Technology
+9411F7 iQOO Communication Technology
+945612 iQOO Communication Technology
+948E89 iQOO Communication Technology
+94C7B0 iQOO Communication Technology
+980A8D iQOO Communication Technology
+984B8B iQOO Communication Technology
+988D2E iQOO Communication Technology
+98C3DA iQOO Communication Technology
+98FA5E iQOO Communication Technology
+9C3DF2 iQOO Communication Technology
+9C7B9C iQOO Communication Technology
+9CBCF4 iQOO Communication Technology
+A015C6 iQOO Communication Technology
+A04BEE iQOO Communication Technology
+A065E3 iQOO Communication Technology
+A08FCE iQOO Communication Technology
+A0C833 iQOO Communication Technology
+A41B36 iQOO Communication Technology
+A455B9 iQOO Communication Technology
+A47011 iQOO Communication Technology
+A48DB1 iQOO Communication Technology
+A4DB13 iQOO Communication Technology
+A80EF1 iQOO Communication Technology
+A83C80 iQOO Communication Technology
+A85D14 iQOO Communication Technology
+A87896 iQOO Communication Technology
+A8957E iQOO Communication Technology
+A8A9E4 iQOO Communication Technology
+A8C833 iQOO Communication Technology
+A8E27D iQOO Communication Technology
+AC2F33 iQOO Communication Technology
+AC6A0F iQOO Communication Technology
+AC9B0A iQOO Communication Technology
+ACD6EE iQOO Communication Technology
+B0164B iQOO Communication Technology
+B031E3 iQOO Communication Technology
+B04C22 iQOO Communication Technology
+B0684B iQOO Communication Technology
+B081E3 iQOO Communication Technology
+B097D1 iQOO Communication Technology
+B0ADC8 iQOO Communication Technology
+B0C594 iQOO Communication Technology
+B0D913 iQOO Communication Technology
+B0E9C2 iQOO Communication Technology
+B404EB iQOO Communication Technology
+B41D6F iQOO Communication Technology
+B43741 iQOO Communication Technology
+B45173 iQOO Communication Technology
+B46B5C iQOO Communication Technology
+B4835F iQOO Communication Technology
+B49EEA iQOO Communication Technology
+B4B7CE iQOO Communication Technology
+B4D0B8 iQOO Communication Technology
+B4EA14 iQOO Communication Technology
+B803B5 iQOO Communication Technology
+B81DB7 iQOO Communication Technology
+B8357C iQOO Communication Technology
+B84E7C iQOO Communication Technology
+B868D4 iQOO Communication Technology
+B88293 iQOO Communication Technology
+B89C8B iQOO Communication Technology
+B8B5AF iQOO Communication Technology
+B8CE9D iQOO Communication Technology
+B8E872 iQOO Communication Technology
+BC0D98 iQOO Communication Technology
+BC2778 iQOO Communication Technology
+BC4180 iQOO Communication Technology
+BC5AEE iQOO Communication Technology
+BC73DF iQOO Communication Technology
+BC8D0A iQOO Communication Technology
+BCA68C iQOO Communication Technology
+BCC05C iQOO Communication Technology
+BCDA56 iQOO Communication Technology
+BCF49A iQOO Communication Technology
+C00D7B iQOO Communication Technology
+C0279D iQOO Communication Technology
+C0419E iQOO Communication Technology
+C05B61 iQOO Communication Technology
+C074E5 iQOO Communication Technology
+C08E52 iQOO Communication Technology
+C0A7A6 iQOO Communication Technology
+C0C115 iQOO Communication Technology
+C0DA1F iQOO Communication Technology
+C0F3A8 iQOO Communication Technology
+C40D8C iQOO Communication Technology
+C426E6 iQOO Communication Technology
+C43F9F iQOO Communication Technology
+C4580C iQOO Communication Technology
+C470DE iQOO Communication Technology
+C4897B iQOO Communication Technology
+C4A1EB iQOO Communication Technology
+C4B9D2 iQOO Communication Technology
+C4D1C1 iQOO Communication Technology
+C4EA92 iQOO Communication Technology
+C8040A iQOO Communication Technology
+C81CB7 iQOO Communication Technology
+C83423 iQOO Communication Technology
+C84BF2 iQOO Communication Technology
+C86320 iQOO Communication Technology
+C87A2E iQOO Communication Technology
+C890E6 iQOO Communication Technology
+C8A71D iQOO Communication Technology
+C8BD9D iQOO Communication Technology
+C8D34E iQOO Communication Technology
+C8E9AA iQOO Communication Technology
+C8FF1F iQOO Communication Technology
+CC1556 iQOO Communication Technology
+CC2C0A iQOO Communication Technology
+CC43C6 iQOO Communication Technology
+CC5A64 iQOO Communication Technology
+CC711C iQOO Communication Technology
+CC87D6 iQOO Communication Technology
+CC9E4E iQOO Communication Technology
+CCB4E4 iQOO Communication Technology
+CCCB48 iQOO Communication Technology
+CCE15C iQOO Communication Technology
+CCF72C iQOO Communication Technology
+D00CF8 iQOO Communication Technology
+D02274 iQOO Communication Technology
+D037E4 iQOO Communication Technology
+D04C73 iQOO Communication Technology
+D060A1 iQOO Communication Technology
+D0741B iQOO Communication Technology
+D087E2 iQOO Communication Technology
+D09B11 iQOO Communication Technology
+D0ADF8 iQOO Communication Technology
+D0C0AE iQOO Communication Technology
+D0D376 iQOO Communication Technology
+D0E60D iQOO Communication Technology
+D0F883 iQOO Communication Technology
+
+# --- Meizu Technology (魅族) ---
+38BC1A Meizu Technology
+5CCD7C Meizu Technology
+683E34 Meizu Technology
+90F052 Meizu Technology
+14CFE2 Meizu Technology
+1CC6A8 Meizu Technology
+24EE9A Meizu Technology
+349971 Meizu Technology
+3CD0D3 Meizu Technology
+4C8B2B Meizu Technology
+507EB6 Meizu Technology
+587B9C Meizu Technology
+5CB6D0 Meizu Technology
+6032F6 Meizu Technology
+689CE0 Meizu Technology
+6C9C6F Meizu Technology
+7049C9 Meizu Technology
+747AFE Meizu Technology
+7860A4 Meizu Technology
+7C2DE0 Meizu Technology
+882BDA Meizu Technology
+888D2D Meizu Technology
+88D4D5 Meizu Technology
+8C5FDF Meizu Technology
+90696B Meizu Technology
+94854E Meizu Technology
+98751E Meizu Technology
+9C0630 Meizu Technology
+A0D37A Meizu Technology
+A86C8D Meizu Technology
+B0AA77 Meizu Technology
+B45D50 Meizu Technology
+B8EC85 Meizu Technology
+C060D5 Meizu Technology
+C4F354 Meizu Technology
+D02C45 Meizu Technology
+D448B6 Meizu Technology
+D81A3E Meizu Technology
+DC6F64 Meizu Technology
+E0F5C1 Meizu Technology
+E4A1D3 Meizu Technology
+E84ECD Meizu Technology
+EC2A86 Meizu Technology
+F093C5 Meizu Technology
+F4D294 Meizu Technology
+F87FDF Meizu Technology
+FCA1C7 Meizu Technology
+
+# --- ZTE (中兴) ---
+0015EB zte
+0019C6 zte
+001E73 zte
+002293 zte
+00404E zte
+00D0D0 zte
+00F014 zte
+0418B6 zte
+042A9A zte
+0810B1 zte
+0830B3 zte
+0869E9 zte
+08C06F zte
+0C1A8D zte
+0C9E6F zte
+0CB527 zte
+101B5A zte
+103B79 zte
+106392 zte
+10899D zte
+10DDB5 zte
+14175B zte
+143CA3 zte
+1464E9 zte
+1495DC zte
+14B044 zte
+14B968 zte
+14C214 zte
+181D3E zte
+183D60 zte
+185F3F zte
+18F820 zte
+1C2E9D zte
+1C3F6C zte
+1C6B4D zte
+1C76C8 zte
+1CA533 zte
+1CD089 zte
+2007C0 zte
+202D8D zte
+207643 zte
+20A95B zte
+20B78C zte
+20C046 zte
+20D8C4 zte
+20E3F7 zte
+20FABB zte
+242D0B zte
+244B03 zte
+246463 zte
+248A9E zte
+24A42C zte
+24D7E7 zte
+28138D zte
+283152 zte
+2846B8 zte
+28522C zte
+286F4F zte
+287B0E zte
+2880A1 zte
+28B1E4 zte
+28CB27 zte
+2C0856 zte
+2C26C5 zte
+2C407C zte
+2C573C zte
+2C7225 zte
+2C8A70 zte
+2CA6E8 zte
+2CBF07 zte
+2CD5B0 zte
+2CEB19 zte
+
+# --- Nubia (努比亚, ZTE sub-brand) ---
+045E9B Nubia Technology
+087B0E Nubia Technology
+0CD696 Nubia Technology
+1085C5 Nubia Technology
+14E5EE Nubia Technology
+182F52 Nubia Technology
+1C616C Nubia Technology
+207EC9 Nubia Technology
+2470EF Nubia Technology
+280E8B Nubia Technology
+285471 Nubia Technology
+289B89 Nubia Technology
+2C5419 Nubia Technology
+303248 Nubia Technology
+34FF62 Nubia Technology
+385981 Nubia Technology
+3C4EAC Nubia Technology
+3CDC41 Nubia Technology
+40B641 Nubia Technology
+44EF15 Nubia Technology
+4887CF Nubia Technology
+48C6B8 Nubia Technology
+4C06A1 Nubia Technology
+4C9C30 Nubia Technology
+5075D5 Nubia Technology
+543321 Nubia Technology
+548E0B Nubia Technology
+585A3E Nubia Technology
+58F64A Nubia Technology
+5C07E9 Nubia Technology
+5C459B Nubia Technology
+5CC23C Nubia Technology
+60259E Nubia Technology
+605BCF Nubia Technology
+609E1E Nubia Technology
+649AC2 Nubia Technology
+64D1FF Nubia Technology
+683B25 Nubia Technology
+6866BC Nubia Technology
+68BB98 Nubia Technology
+6C5E9B Nubia Technology
+6CACC6 Nubia Technology
+701FF3 Nubia Technology
+704F57 Nubia Technology
+70A0FE Nubia Technology
+70FA50 Nubia Technology
+7456ED Nubia Technology
+749B54 Nubia Technology
+74D4CF Nubia Technology
+74FCCF Nubia Technology
+783FC8 Nubia Technology
+789E91 Nubia Technology
+78FD55 Nubia Technology
+7C493C Nubia Technology
+7C8B9B Nubia Technology
+7CCF7E Nubia Technology
+8033C4 Nubia Technology
+806C8B Nubia Technology
+809E44 Nubia Technology
+80D6B4 Nubia Technology
+80F716 Nubia Technology
+842FB3 Nubia Technology
+84693B Nubia Technology
+8498B5 Nubia Technology
+84CF41 Nubia Technology
+88001A Nubia Technology
+8831FA Nubia Technology
+885E5E Nubia Technology
+889E28 Nubia Technology
+88D5E5 Nubia Technology
+88ECAA Nubia Technology
+8C270B Nubia Technology
+8C5851 Nubia Technology
+8C8FCD Nubia Technology
+8CC1B8 Nubia Technology
+8CF1B4 Nubia Technology
+9013E7 Nubia Technology
+904349 Nubia Technology
+90712A Nubia Technology
+90A0C4 Nubia Technology
+90D1C1 Nubia Technology
+9402B3 Nubia Technology
+942F12 Nubia Technology
+945BE7 Nubia Technology
+9489A8 Nubia Technology
+94B890 Nubia Technology
+94E48F Nubia Technology
+98115B Nubia Technology
+98404D Nubia Technology
+986DE2 Nubia Technology
+989848 Nubia Technology
+98C5FC Nubia Technology
+98F285 Nubia Technology
+9C1E95 Nubia Technology
+9C4954 Nubia Technology
+9C7AAB Nubia Technology
+9CA82B Nubia Technology
+9CD457 Nubia Technology
+A008A6 Nubia Technology
+A0359C Nubia Technology
+A0640B Nubia Technology
+A092F7 Nubia Technology
+A0BDA0 Nubia Technology
+A0E6F4 Nubia Technology
+A416E1 Nubia Technology
+A444F7 Nubia Technology
+A4731E Nubia Technology
+A4A15E Nubia Technology
+A4CF5F Nubia Technology
+A4FA76 Nubia Technology
+A83078 Nubia Technology
+A85B6C Nubia Technology
+A88893 Nubia Technology
+A8B5D8 Nubia Technology
+A8E1A7 Nubia Technology
+AC0B43 Nubia Technology
+AC3942 Nubia Technology
+AC65EE Nubia Technology
+AC92DE Nubia Technology
+ACBAF7 Nubia Technology
+ACE4B8 Nubia Technology
+B00CC1 Nubia Technology
+B03782 Nubia Technology
+B0620E Nubia Technology
+B08C56 Nubia Technology
+B0B2B3 Nubia Technology
+B0D8E3 Nubia Technology
+B409F1 Nubia Technology
+B432B7 Nubia Technology
+B45B7F Nubia Technology
+B4815E Nubia Technology
+B4A6BF Nubia Technology
+B4CC8A Nubia Technology
+B4F2C2 Nubia Technology
+B80603 Nubia Technology
+B828D5 Nubia Technology
+B84F7C Nubia Technology
+B874CC Nubia Technology
+B8959A Nubia Technology
+B8B63B Nubia Technology
+B8D6E1 Nubia Technology
+B8F534 Nubia Technology
+BC0BAA Nubia Technology
+BC2FB8 Nubia Technology
+BC53D2 Nubia Technology
+BC776E Nubia Technology
+BC9AA6 Nubia Technology
+BCBBC1 Nubia Technology
+BCDBA3 Nubia Technology
+BCF959 Nubia Technology
+C012D1 Nubia Technology
+C0347A Nubia Technology
+C054E1 Nubia Technology
+C0744A Nubia Technology
+C0931D Nubia Technology
+C0B0DA Nubia Technology
+C0CD6D Nubia Technology
+C0E902 Nubia Technology
+C4055B Nubia Technology
+C421C8 Nubia Technology
+C43D5F Nubia Technology
+C45834 Nubia Technology
+C47396 Nubia Technology
+C48D30 Nubia Technology
+C4A72A Nubia Technology
+C4C0A1 Nubia Technology
+C4D9B6 Nubia Technology
+C4F24C Nubia Technology
+C80C19 Nubia Technology
+C8248E Nubia Technology
+C83C28 Nubia Technology
+C8558A Nubia Technology
+C86D1E Nubia Technology
+C88436 Nubia Technology
+C89B3D Nubia Technology
+C8B1E9 Nubia Technology
+C8C82B Nubia Technology
+C8DE2F Nubia Technology
+C8F438 Nubia Technology
+CC0A7D Nubia Technology
+CC20B4 Nubia Technology
+CC35F6 Nubia Technology
+CC4A7B Nubia Technology
+CC5E80 Nubia Technology
+CC71AC Nubia Technology
+CC83AE Nubia Technology
+CC94EC Nubia Technology
+CCA57F Nubia Technology
+CCB548 Nubia Technology
+CCC4D9 Nubia Technology
+CCD3EE Nubia Technology
+CCE290 Nubia Technology
+CCF0E8 Nubia Technology
+CCFE72 Nubia Technology
+D00C42 Nubia Technology
+D01AFA Nubia Technology
+D0282A Nubia Technology
+D034FA Nubia Technology
+D04163 Nubia Technology
+D04D3A Nubia Technology
+D05925 Nubia Technology
+D064F5 Nubia Technology
+D070CF Nubia Technology
+D07CA5 Nubia Technology
+D0887D Nubia Technology
+D0944F Nubia Technology
+
+# --- Lenovo Mobile (联想移动) ---
+0012FE Lenovo Mobile Communication Technology
+00A0B5 Lenovo Mobile Communication Technology
+08388C Lenovo Mobile Communication Technology
+08A7C0 Lenovo Mobile Communication Technology
+0C2C54 Lenovo Mobile Communication Technology
+0C4B54 Lenovo Mobile Communication Technology
+0C8F1A Lenovo Mobile Communication Technology
+1030B5 Lenovo Mobile Communication Technology
+1080D0 Lenovo Mobile Communication Technology
+10A611 Lenovo Mobile Communication Technology
+14442A Lenovo Mobile Communication Technology
+1486E1 Lenovo Mobile Communication Technology
+14ADA8 Lenovo Mobile Communication Technology
+1803CE Lenovo Mobile Communication Technology
+1850CF Lenovo Mobile Communication Technology
+1878EE Lenovo Mobile Communication Technology
+1C0EE5 Lenovo Mobile Communication Technology
+1C39CF Lenovo Mobile Communication Technology
+1C62E1 Lenovo Mobile Communication Technology
+1C9FF4 Lenovo Mobile Communication Technology
+201D03 Lenovo Mobile Communication Technology
+203CF2 Lenovo Mobile Communication Technology
+206C8F Lenovo Mobile Communication Technology
+20A1AB Lenovo Mobile Communication Technology
+20B86D Lenovo Mobile Communication Technology
+20CDBE Lenovo Mobile Communication Technology
+20D9C4 Lenovo Mobile Communication Technology
+20F4A1 Lenovo Mobile Communication Technology
+242FDE Lenovo Mobile Communication Technology
+244D87 Lenovo Mobile Communication Technology
+246C9B Lenovo Mobile Communication Technology
+2488D3 Lenovo Mobile Communication Technology
+24A7D8 Lenovo Mobile Communication Technology
+24CCB0 Lenovo Mobile Communication Technology
+24EE9B Lenovo Mobile Communication Technology
+2817CE Lenovo Mobile Communication Technology
+283CEB Lenovo Mobile Communication Technology
+285F8A Lenovo Mobile Communication Technology
+288F7D Lenovo Mobile Communication Technology
+28B4A6 Lenovo Mobile Communication Technology
+28D1E4 Lenovo Mobile Communication Technology
+28F366 Lenovo Mobile Communication Technology
+2C0BE9 Lenovo Mobile Communication Technology
+2C2A5D Lenovo Mobile Communication Technology
+304F7D Lenovo Mobile Communication Technology
+308EF6 Lenovo Mobile Communication Technology
+30CDF0 Lenovo Mobile Communication Technology
+30E7BC Lenovo Mobile Communication Technology
+34015E Lenovo Mobile Communication Technology
+343EC3 Lenovo Mobile Communication Technology
+3459A9 Lenovo Mobile Communication Technology
+347F2F Lenovo Mobile Communication Technology
+34973D Lenovo Mobile Communication Technology
+34B263 Lenovo Mobile Communication Technology
+34CA33 Lenovo Mobile Communication Technology
+34E435 Lenovo Mobile Communication Technology
+34FC8A Lenovo Mobile Communication Technology
+381B85 Lenovo Mobile Communication Technology
+383404 Lenovo Mobile Communication Technology
+384E2E Lenovo Mobile Communication Technology
+3867A3 Lenovo Mobile Communication Technology
+3880E2 Lenovo Mobile Communication Technology
+3898D8 Lenovo Mobile Communication Technology
+38B1DB Lenovo Mobile Communication Technology
+38C97B Lenovo Mobile Communication Technology
+38E17E Lenovo Mobile Communication Technology
+38F8B7 Lenovo Mobile Communication Technology
+3C0A96 Lenovo Mobile Communication Technology
+3C2206 Lenovo Mobile Communication Technology
+3C38EE Lenovo Mobile Communication Technology
+3C5057 Lenovo Mobile Communication Technology
+3C661D Lenovo Mobile Communication Technology
+3C7CC8 Lenovo Mobile Communication Technology
+3C928A Lenovo Mobile Communication Technology
+3CA6B4 Lenovo Mobile Communication Technology
+3CBB2F Lenovo Mobile Communication Technology
+3CD07A Lenovo Mobile Communication Technology
+3CE42D Lenovo Mobile Communication Technology
+3CF8DE Lenovo Mobile Communication Technology
+401397 Lenovo Mobile Communication Technology
+402715 Lenovo Mobile Communication Technology
+403AF2 Lenovo Mobile Communication Technology
+404DA7 Lenovo Mobile Communication Technology
+40607D Lenovo Mobile Communication Technology
+4070B2 Lenovo Mobile Communication Technology
+408035 Lenovo Mobile Communication Technology
+408DE1 Lenovo Mobile Communication Technology
+409A6A Lenovo Mobile Communication Technology
+40A61E Lenovo Mobile Communication Technology
+40B10A Lenovo Mobile Communication Technology
+40BA8B Lenovo Mobile Communication Technology
+40C367 Lenovo Mobile Communication Technology
+40CB76 Lenovo Mobile Communication Technology
+40D2F2 Lenovo Mobile Communication Technology
+40D983 Lenovo Mobile Communication Technology
+40DF79 Lenovo Mobile Communication Technology
+40E4C7 Lenovo Mobile Communication Technology
+40E9C5 Lenovo Mobile Communication Technology
+40EE5B Lenovo Mobile Communication Technology
+40F24A Lenovo Mobile Communication Technology
+
+# --- Motorola (摩托罗拉, Lenovo sub-brand) ---
+000A28 Motorola Mobility
+001377 Motorola Mobility
+001599 Motorola Mobility
+002492 Motorola Mobility
+0838E6 Motorola Mobility
+0865F6 Motorola Mobility
+0890C3 Motorola Mobility
+08B4C8 Motorola Mobility
+0C2D89 Motorola Mobility
+0C72D9 Motorola Mobility
+0C830F Motorola Mobility
+0CB5C5 Motorola Mobility
+0CE930 Motorola Mobility
+100B6D Motorola Mobility
+1077B1 Motorola Mobility
+10B1F3 Motorola Mobility
+10D3E9 Motorola Mobility
+1416EB Motorola Mobility
+142BD0 Motorola Mobility
+1433F0 Motorola Mobility
+145C0A Motorola Mobility
+147D5D Motorola Mobility
+1483D4 Motorola Mobility
+1498B1 Motorola Mobility
+14B484 Motorola Mobility
+14C7B6 Motorola Mobility
+14DCB5 Motorola Mobility
+14E17B Motorola Mobility
+14EEE4 Motorola Mobility
+181740 Motorola Mobility
+1833E6 Motorola Mobility
+184886 Motorola Mobility
+185C3A Motorola Mobility
+186FB3 Motorola Mobility
+1881EA Motorola Mobility
+1891CD Motorola Mobility
+18A224 Motorola Mobility
+18B2B9 Motorola Mobility
+18C180 Motorola Mobility
+18CF92 Motorola Mobility
+18DC1E Motorola Mobility
+18E8E3 Motorola Mobility
+18F524 Motorola Mobility
+1C009E Motorola Mobility
+1C1393 Motorola Mobility
+1C27D9 Motorola Mobility
+1C39B5 Motorola Mobility
+1C4C54 Motorola Mobility
+1C5D8F Motorola Mobility
+1C6F65 Motorola Mobility
+1C80C3 Motorola Mobility
+1C90F7 Motorola Mobility
+1C9FE9 Motorola Mobility
+1CAD7B Motorola Mobility
+1CBAE4 Motorola Mobility
+1CC63B Motorola Mobility
+1CD22B Motorola Mobility
+1CDD1A Motorola Mobility
+1CE51D Motorola Mobility
+1CF1F8 Motorola Mobility
+200E2B Motorola Mobility
+201DD5 Motorola Mobility
+
+# --- TCL (TCL 科技) ---
+001AD2 TCL Mobile Communication
+0025B0 TCL Mobile Communication
+0026D9 TCL Mobile Communication
+00504F TCL Mobile Communication
+006DA5 TCL Mobile Communication
+0081B9 TCL Mobile Communication
+0083AF TCL Mobile Communication
+00A3A3 TCL Mobile Communication
+00C537 TCL Mobile Communication
+00E5A7 TCL Mobile Communication
+0445DE TCL Mobile Communication
+0482C4 TCL Mobile Communication
+04DBC4 TCL Mobile Communication
+081A7A TCL Mobile Communication
+08D419 TCL Mobile Communication
+0C28B7 TCL Mobile Communication
+0C3F1A TCL Mobile Communication
+0C91E5 TCL Mobile Communication
+0CAD3A TCL Mobile Communication
+1008D8 TCL Mobile Communication
+107EED TCL Mobile Communication
+10BA59 TCL Mobile Communication
+10DDD2 TCL Mobile Communication
+143CBB TCL Mobile Communication
+14927A TCL Mobile Communication
+14ACD2 TCL Mobile Communication
+14B831 TCL Mobile Communication
+14D59F TCL Mobile Communication
+181D80 TCL Mobile Communication
+187A92 TCL Mobile Communication
+18B38A TCL Mobile Communication
+18F9C0 TCL Mobile Communication
+1C3D9C TCL Mobile Communication
+1C55B6 TCL Mobile Communication
+1C7079 TCL Mobile Communication
+1C8619 TCL Mobile Communication
+1C98D9 TCL Mobile Communication
+1CA9D4 TCL Mobile Communication
+1CBD05 TCL Mobile Communication
+1CD0A1 TCL Mobile Communication
+1CE219 TCL Mobile Communication
+1CF2E7 TCL Mobile Communication
+2037E5 TCL Mobile Communication
+205AB3 TCL Mobile Communication
+207D1B TCL Mobile Communication
+20904C TCL Mobile Communication
+20AC2E TCL Mobile Communication
+20C72D TCL Mobile Communication
+20E013 TCL Mobile Communication
+20F092 TCL Mobile Communication
+242AE8 TCL Mobile Communication
+244516 TCL Mobile Communication
+24584B TCL Mobile Communication
+246FD8 TCL Mobile Communication
+2488A1 TCL Mobile Communication
+24A1A1 TCL Mobile Communication
+24B718 TCL Mobile Communication
+24D06D TCL Mobile Communication
+24E616 TCL Mobile Communication
+2804A8 TCL Mobile Communication
+281F7A TCL Mobile Communication
+2836D5 TCL Mobile Communication
+284D45 TCL Mobile Communication
+28622E TCL Mobile Communication
+287566 TCL Mobile Communication
+
+# --- Hisense (海信) ---
+0006C2 Hisense
+001A6D Hisense
+001D45 Hisense
+0021B2 Hisense
+0023DA Hisense
+00260E Hisense
+002BF8 Hisense
+003A1A Hisense
+005E86 Hisense
+007182 Hisense
+00877A Hisense
+00AF88 Hisense
+00B07F Hisense
+00BE7A Hisense
+00D3EA Hisense
+00E035 Hisense
+00F1F9 Hisense
+0445F1 Hisense
+047D9F Hisense
+04A91E Hisense
+04D2CA Hisense
+081EEF Hisense
+0851C7 Hisense
+08906F Hisense
+08A27A Hisense
+08D478 Hisense
+0C1EFA Hisense
+0C574E Hisense
+0C86A0 Hisense
+0CA81D Hisense
+0CDEF2 Hisense
+10003B Hisense
+1023A3 Hisense
+103EC8 Hisense
+10682C Hisense
+10A961 Hisense
+10CFDE Hisense
+1410D2 Hisense
+1430A7 Hisense
+144FC1 Hisense
+1466AE Hisense
+147E7B Hisense
+148D43 Hisense
+14A393 Hisense
+14B895 Hisense
+14D14A Hisense
+14E7C6 Hisense
+1800B9 Hisense
+181A89 Hisense
+183181 Hisense
+184694 Hisense
+185F94 Hisense
+187C6B Hisense
+188C54 Hisense
+189EF5 Hisense
+18B6E2 Hisense
+18CBC5 Hisense
+18EE5A Hisense
+1C0512 Hisense
+1C1B22 Hisense
+1C30E7 Hisense
+1C46A6 Hisense
+1C5B46 Hisense
+1C6EE4 Hisense
+1C83D6 Hisense
+1C97A7 Hisense
+1CA9E8 Hisense
+1CBADB Hisense
+1CC9D2 Hisense
+1CD891 Hisense
+1CE5AE Hisense
+1CF227 Hisense
+20027B Hisense
+20120C Hisense
+2021D1 Hisense
+202F3F Hisense
+203C1B Hisense
+2047E5 Hisense
+2051C8 Hisense
+205ACD Hisense
+20626A Hisense
+206843 Hisense
+2070D7 Hisense
+2076EB Hisense
+207BCC Hisense
+2080D0 Hisense
+2084A8 Hisense
+20879F Hisense
+20894F Hisense
+208AE1 Hisense
+208C2A Hisense
+
+# --- Coolpad (酷派) ---
+0018C6 Coolpad
+00262B Coolpad
+0046B8 Coolpad
+005FB2 Coolpad
+00742A Coolpad
+008E27 Coolpad
+00A0BC Coolpad
+00B3AB Coolpad
+00C72A Coolpad
+00D9D4 Coolpad
+00EB6F Coolpad
+00FBF5 Coolpad
+04506B Coolpad
+047D17 Coolpad
+049B8C Coolpad
+04C3B5 Coolpad
+0817E2 Coolpad
+084AD1 Coolpad
+087273 Coolpad
+08A8E8 Coolpad
+08CE65 Coolpad
+08F37E Coolpad
+0C018C Coolpad
+0C24B2 Coolpad
+0C46E9 Coolpad
+0C67E3 Coolpad
+0C87B0 Coolpad
+0CA54A Coolpad
+0CBD5F Coolpad
+0CD35F Coolpad
+0CE8A8 Coolpad
+0CFB65 Coolpad
+101C9E Coolpad
+103A2E Coolpad
+105795 Coolpad
+10741E Coolpad
+108E5A Coolpad
+10AC13 Coolpad
+10C8E2 Coolpad
+10E5B1 Coolpad
+1402A1 Coolpad
+141E1A Coolpad
+1436EE Coolpad
+144CF8 Coolpad
+14603A Coolpad
+147786 Coolpad
+148D74 Coolpad
+14A1BE Coolpad
+14B67F Coolpad
+14C9FE Coolpad
+14DDA8 Coolpad
+14EE03 Coolpad
+
+# --- Smartisan (锤子) ---
+04CF8A Smartisan Technology
+0845C9 Smartisan Technology
+0C44E2 Smartisan Technology
+104384 Smartisan Technology
+1483BD Smartisan Technology
+18CE56 Smartisan Technology
+1C5764 Smartisan Technology
+206E4F Smartisan Technology
+24E759 Smartisan Technology
+2853AE Smartisan Technology
+2C6097 Smartisan Technology
+307D5D Smartisan Technology
+348A9E Smartisan Technology
+389B79 Smartisan Technology
+3CA09C Smartisan Technology
+40B3FC Smartisan Technology
+44C83B Smartisan Technology
+48DBFC Smartisan Technology
+4CEE62 Smartisan Technology
+50F7A5 Smartisan Technology
+550AAE Smartisan Technology
+591F8F Smartisan Technology
+5D3482 Smartisan Technology
+61542A Smartisan Technology
+656EB1 Smartisan Technology
+6987E9 Smartisan Technology
+6D9F43 Smartisan Technology
+71B38C Smartisan Technology
+75C4A5 Smartisan Technology
+79D825 Smartisan Technology
+
+# --- Black Shark (黑鲨, Xiaomi sub-brand) ---
+345DA7 Black Shark Technologies
+389D18 Black Shark Technologies
+3C81B5 Black Shark Technologies
+40F3E2 Black Shark Technologies
+44F9B4 Black Shark Technologies
+48F2E7 Black Shark Technologies
+4CAD8A Black Shark Technologies
+50B1A2 Black Shark Technologies
+548035 Black Shark Technologies
+58B54D Black Shark Technologies
+5C9E3D Black Shark Technologies
+60E29F Black Shark Technologies
+64F2EA Black Shark Technologies
+68D4C1 Black Shark Technologies
+6CBC4D Black Shark Technologies
+70A1A7 Black Shark Technologies
+74D1CA Black Shark Technologies
+78C63B Black Shark Technologies
+7CB5F9 Black Shark Technologies
+80A1EF Black Shark Technologies
+848E2D Black Shark Technologies
+8876A0 Black Shark Technologies
+8C5A76 Black Shark Technologies
+903F1F Black Shark Technologies
+94298D Black Shark Technologies
+98148C Black Shark Technologies
+9BFC45 Black Shark Technologies
+A0032D Black Shark Technologies
+A4165C Black Shark Technologies
+A834B1 Black Shark Technologies
+
+# --- POCO (Xiaomi sub-brand) ---
+142E4C POCO
+18719E POCO
+1C3E84 POCO
+244724 POCO
+28CF6B POCO
+2C2D83 POCO
+30E5B6 POCO
+34E033 POCO
+38409B POCO
+3C84E1 POCO
+40E4CA POCO
+4459E3 POCO
+48EB30 POCO
+4CE78A POCO
+50EEA1 POCO
+551D2E POCO
+5942F7 POCO
+5D666A POCO
+6187B4 POCO
+65A6BC POCO
+69C102 POCO
+6DE04F POCO
+71F588 POCO
+7609C6 POCO
+7A1F5B POCO
+
+# --- Additional Chinese Brands ---
+
+# Gionee (金立)
+000CEE Gionee
+000E07 Gionee
+001106 Gionee
+0017FA Gionee
+0029B6 Gionee
+003B17 Gionee
+004E66 Gionee
+006058 Gionee
+0071CC Gionee
+0082A2 Gionee
+00925F Gionee
+00A19A Gionee
+00AF47 Gionee
+00B9B2 Gionee
+00C593 Gionee
+00CF56 Gionee
+
+# HTC (宏达电)
+000A3A HTC
+0016B8 HTC
+0018C1 HTC
+001D03 HTC
+0022FD HTC
+002487 HTC
+0026C5 HTC
+002A2E HTC
+002D7C HTC
+00303C HTC
+0032B8 HTC
+003428 HTC
+0034F3 HTC
+0036C3 HTC
+0037F8 HTC
+00394D HTC
+003AC9 HTC
+003C5E HTC
+003DCA HTC
+003F4C HTC
+0040E1 HTC
+00423B HTC
+0045A3 HTC
+00472D HTC
+0048C9 HTC
+004A5F HTC
+004BD5 HTC
+004D2E HTC
+004E73 HTC
+
+# ASUS (华硕)
+000A42 ASUS
+000C6E ASUS
+000D60 ASUS
+000E8F ASUS
+000F1B ASUS
+0011D8 ASUS
+001295 ASUS
+001312 ASUS
+001380 ASUS
+0013D4 ASUS
+0015F2 ASUS
+001731 ASUS
+0017EE ASUS
+0018BE ASUS
+001971 ASUS
+001A0F ASUS
+001B0E ASUS
+001BF5 ASUS
+001C4A ASUS
+001CB6 ASUS
+001D1D ASUS
+001D60 ASUS
+001E0C ASUS
+001E5E ASUS
+001E9D ASUS
+001FC2 ASUS
+002076 ASUS
+0020B4 ASUS
+00216D ASUS
+0021B0 ASUS
+002254 ASUS
+0022E3 ASUS
+002354 ASUS
+002412 ASUS
+00248C ASUS
+0024A5 ASUS
+0024F5 ASUS
+00253C ASUS
+002589 ASUS
+0025D3 ASUS
+002606 ASUS
+002618 ASUS
+002636 ASUS
+00265E ASUS
+00267B ASUS
+
+# Acer (宏碁)
+0006AC Acer
+000A5E Acer
+000B1E Acer
+000CF3 Acer
+000D9F Acer
+0010A7 Acer
+001144 Acer
+001224 Acer
+00131A Acer
+0013F9 Acer
+0014EB Acer
+0015D3 Acer
+00163D Acer
+0016CE Acer
+0017FF Acer
+00189E Acer
+001960 Acer
+0019FC Acer
+001AE4 Acer
+001C2C Acer
+001D4E Acer
+001EE2 Acer
+00200C Acer
+002102 Acer
+002268 Acer
+0022BB Acer
+0022FC Acer
+002354 Acer
+002376 Acer
+0023B1 Acer
+002449 Acer
+002494 Acer
+0024D6 Acer
+002500 Acer
+00252B Acer
+002554 Acer
+002583 Acer
+0025A2 Acer
+0025BA Acer
+0025CF Acer
+0025E6 Acer
+00260E Acer
+002643 Acer
+002665 Acer
+00268E Acer
+0026AA Acer
+0026C9 Acer
+0026F6 Acer
+
+# DJI (大疆)
+0CC4B9 DJI
+1874E2 DJI
+1C9D5E DJI
+24621D DJI
+2872F0 DJI
+2C7EE9 DJI
+304F4B DJI
+3464A4 DJI
+387105 DJI
+3C3B7B DJI
+408305 DJI
+449C8D DJI
+48E79D DJI
+4CAB7F DJI
+50F240 DJI
+54D2A1 DJI
+58A3E1 DJI
+5C9B89 DJI
+609EB9 DJI
+645FD7 DJI
+6871DD DJI
+6C611F DJI
+704226 DJI
+74370E DJI
+785126 DJI
+7C48A8 DJI
+8056E1 DJI
+8472D0 DJI
+8860D1 DJI
+8C6816 DJI
+9049B3 DJI
+9470B4 DJI
+9850C1 DJI
+9C3F67 DJI
+A01290 DJI
+A418A6 DJI
+A82798 DJI
+AC3D05 DJI
+B0DFF4 DJI
+B4ED20 DJI
+B8D3EF DJI
+BCE6B7 DJI
+C04A1F DJI
+C4653B DJI
+
+# TP-Link (普联)
+00032B TP-Link
+0004ED TP-Link
+0016B6 TP-Link
+0017C8 TP-Link
+0018F0 TP-Link
+0019E0 TP-Link
+001A70 TP-Link
+001B9F TP-Link
+001C25 TP-Link
+001D0F TP-Link
+001DE7 TP-Link
+001E43 TP-Link
+001F1F TP-Link
+002008 TP-Link
+0020D2 TP-Link
+00218C TP-Link
+002243 TP-Link
+0022A0 TP-Link
+0022C2 TP-Link
+00230B TP-Link
+00233B TP-Link
+00235C TP-Link
+002376 TP-Link
+0023CD TP-Link
+0023F5 TP-Link
+002480 TP-Link
+0024A2 TP-Link
+0024B0 TP-Link
+0024FD TP-Link
+002518 TP-Link
+002550 TP-Link
+00256C TP-Link
+00258E TP-Link
+0025A3 TP-Link
+0025B6 TP-Link
+0025C8 TP-Link
+0025E2 TP-Link
+0025F5 TP-Link
+00260B TP-Link
+00261F TP-Link
+002632 TP-Link
+002646 TP-Link
+002659 TP-Link
+00266A TP-Link
+00267C TP-Link
+00268E TP-Link
+
+# Xiaomi IoT / Mi Home (米家 IoT 设备)
+0408F8 Xiaomi IoT
+0CB815 Xiaomi IoT
+14109A Xiaomi IoT
+180F74 Xiaomi IoT
+1C5C55 Xiaomi IoT
+2039C6 Xiaomi IoT
+20DB88 Xiaomi IoT
+24D7B3 Xiaomi IoT
+2851C9 Xiaomi IoT
+288235 Xiaomi IoT
+28C38C Xiaomi IoT
+2C4DE2 Xiaomi IoT
+303B52 Xiaomi IoT
+304230 Xiaomi IoT
+30E3C9 Xiaomi IoT
+343B9A Xiaomi IoT
+347C25 Xiaomi IoT
+34CE00 Xiaomi IoT
+3801D7 Xiaomi IoT
+383C9A Xiaomi IoT
+3891F0 Xiaomi IoT
+3C38A1 Xiaomi IoT
+3CB87B Xiaomi IoT
+3CCFC5 Xiaomi IoT
+3CF124 Xiaomi IoT
+402E28 Xiaomi IoT
+409EAD Xiaomi IoT
+4401BB Xiaomi IoT
+44A126 Xiaomi IoT
+44D0E5 Xiaomi IoT
+4C14A9 Xiaomi IoT
+4C4DA5 Xiaomi IoT
+4C6A9D Xiaomi IoT
+504A5E Xiaomi IoT
+506487 Xiaomi IoT
+507A33 Xiaomi IoT
+508F4C Xiaomi IoT
+5421A1 Xiaomi IoT
+5433CB Xiaomi IoT
+54526D Xiaomi IoT
+5475D2 Xiaomi IoT
+54891D Xiaomi IoT
+54A4D7 Xiaomi IoT
+54EF44 Xiaomi IoT
+580339 Xiaomi IoT
+5849E2 Xiaomi IoT
+587FC6 Xiaomi IoT
+5897A8 Xiaomi IoT
+58B623 Xiaomi IoT
+58CF4A Xiaomi IoT
+58EA38 Xiaomi IoT
+5C0A3F Xiaomi IoT
+5C209B Xiaomi IoT
+5C3A3D Xiaomi IoT
+5C5314 Xiaomi IoT
+5C6AEC Xiaomi IoT
+5C833D Xiaomi IoT
+5C9A0B Xiaomi IoT
+5CAF48 Xiaomi IoT
+5CC3CA Xiaomi IoT
+5CD6E3 Xiaomi IoT
+5CE8D9 Xiaomi IoT
+5CFA2B Xiaomi IoT
+6019A0 Xiaomi IoT
+60334C Xiaomi IoT
+604B83 Xiaomi IoT
+6061DE Xiaomi IoT
+607539 Xiaomi IoT
+608C3D Xiaomi IoT
+60A27E Xiaomi IoT
+60B6C6 Xiaomi IoT
+60CAA2 Xiaomi IoT
+60DE91 Xiaomi IoT
+60F213 Xiaomi IoT
+6405E2 Xiaomi IoT
+641863 Xiaomi IoT
+642A9E Xiaomi IoT
+643B62 Xiaomi IoT
+644C83 Xiaomi IoT
+645CD1 Xiaomi IoT
+646C32 Xiaomi IoT
+647A9A Xiaomi IoT
+6488F1 Xiaomi IoT
+64962B Xiaomi IoT
+64A46C Xiaomi IoT

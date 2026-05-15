@@ -29,6 +29,285 @@ st.set_page_config(
 )
 
 # ---------------------------------------------------------------------------
+# 全局 CSS 主题 — "Cyber-Network Terminal"
+# ---------------------------------------------------------------------------
+st.markdown("""
+<style>
+/* ===== CSS 自定义属性 ===== */
+:root {
+    --bg-primary: #0B1120;
+    --bg-secondary: #111827;
+    --bg-surface: #1A2332;
+    --bg-surface-alt: #1F2A3A;
+    --border: #2D3A4A;
+    --text-primary: #E2E8F0;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+    --accent: #00D4AA;
+    --accent-glow: rgba(0,212,170,0.25);
+    --warning: #F59E0B;
+    --warning-glow: rgba(245,158,11,0.25);
+    --danger: #EF4444;
+    --danger-glow: rgba(239,68,68,0.3);
+    --info: #3B82F6;
+    --random-tag: #8B5CF6;
+}
+
+/* ===== Streamlit 全局覆盖 ===== */
+.stApp {
+    background: var(--bg-primary);
+}
+[data-testid="stSidebar"] {
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border);
+}
+[data-testid="stSidebar"] .stMarkdown,
+[data-testid="stSidebar"] .stCaption,
+[data-testid="stSidebar"] .stMetric label,
+[data-testid="stSidebar"] label {
+    color: var(--text-secondary) !important;
+}
+[data-testid="stSidebar"] .stMetric [data-testid="stMetricValue"] {
+    color: var(--text-primary) !important;
+    font-family: monospace;
+}
+.stButton > button {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: all 0.2s !important;
+    font-size: 13px !important;
+}
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.stButton > button[kind="primary"] {
+    background: var(--accent) !important;
+    border-color: var(--accent) !important;
+    color: #0B1120 !important;
+}
+.stButton > button[kind="secondary"] {
+    background: transparent !important;
+    border: 1px solid var(--border) !important;
+    color: var(--text-primary) !important;
+}
+hr, .stDivider {
+    border-color: var(--border) !important;
+}
+.stAlert {
+    border-radius: 8px !important;
+}
+[data-testid="stInfo"] {
+    background: rgba(59,130,246,0.08) !important;
+}
+[data-testid="stSidebar"] .stProgress > div > div {
+    background: linear-gradient(90deg, var(--accent), #00b894) !important;
+}
+
+/* ===== 主标题 ===== */
+.vibenet-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 0;
+    letter-spacing: -0.5px;
+}
+.vibenet-title .accent { color: var(--accent); }
+.vibenet-subtitle {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+
+/* ===== 设备表格 ===== */
+.vibenet-table-wrapper {
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    margin: 16px 0 24px 0;
+    background: var(--bg-primary);
+}
+.vibenet-table-wrapper h4 {
+    margin: 0;
+    padding: 14px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+.vibenet-table-wrapper h4 .count {
+    color: var(--accent);
+    font-family: monospace;
+}
+.vibenet-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    color: var(--text-primary);
+}
+.vibenet-table thead th {
+    background: linear-gradient(180deg, #1A2332 0%, #111827 100%);
+    padding: 11px 14px;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid var(--accent);
+    white-space: nowrap;
+    color: var(--text-secondary);
+}
+.vibenet-table tbody td {
+    padding: 9px 14px;
+    border-bottom: 1px solid rgba(45,58,74,0.5);
+    white-space: nowrap;
+}
+.vibenet-table tbody tr { transition: background 0.15s; }
+.vibenet-table tbody tr:hover { background: rgba(0,212,170,0.06) !important; }
+.vibenet-table .row-real-even { background: var(--bg-surface); }
+.vibenet-table .row-real-odd  { background: var(--bg-surface-alt); }
+.vibenet-table .row-random { opacity: 0.7; }
+.vibenet-table .row-random:nth-child(even) { background: rgba(26,35,50,0.6); }
+.vibenet-table .row-random:nth-child(odd)  { background: rgba(31,42,58,0.5); }
+.vibenet-table .row-killed {
+    background: rgba(239,68,68,0.12) !important;
+}
+.vibenet-table .row-killed td { color: var(--danger); }
+.vibenet-table .row-killed:hover { background: rgba(239,68,68,0.18) !important; }
+.vibenet-table .col-ip { font-weight: 600; font-family: "SF Mono", "Fira Code", monospace; }
+.vibenet-table .col-mac { font-family: "SF Mono", "Fira Code", monospace; color: var(--text-secondary); font-size: 12px; }
+.vibenet-table .col-status { font-weight: 600; }
+.vibenet-table .speed-down { color: var(--accent); font-weight: 600; }
+.vibenet-table .speed-up   { color: var(--info); font-weight: 600; }
+.vibenet-table .speed-unit { color: var(--text-muted); font-size: 11px; }
+
+/* ===== 设备控制卡片 ===== */
+.vibenet-card {
+    background: var(--bg-surface);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 14px 16px;
+    margin-bottom: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.vibenet-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 0 16px var(--accent-glow);
+}
+.vibenet-card.randomized {
+    opacity: 0.82;
+    border-color: rgba(139,92,246,0.25);
+}
+.vibenet-card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.vibenet-card .card-ip {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    font-family: "SF Mono", "Fira Code", monospace;
+}
+.vibenet-card .card-tag {
+    font-size: 10px;
+    background: var(--random-tag);
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.vibenet-card .card-mac {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: "SF Mono", "Fira Code", monospace;
+    margin-bottom: 2px;
+}
+.vibenet-card .card-vendor {
+    font-size: 11px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+.vibenet-card .card-speed-box {
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 12px;
+    margin: 8px 0;
+    padding: 8px 10px;
+    background: rgba(0,0,0,0.25);
+    border-radius: 6px;
+    border-left: 3px solid var(--accent);
+    line-height: 1.6;
+}
+.vibenet-card .card-speed-box .dl { color: var(--accent); font-weight: 600; }
+.vibenet-card .card-speed-box .ul { color: var(--info); font-weight: 600; }
+.vibenet-card .card-speed-box .pk { color: var(--text-muted); }
+.vibenet-card .card-speed-box .sp { color: var(--text-secondary); }
+
+/* 状态指示器 */
+.status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 4px 0 6px 0;
+}
+.status-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.status-dot.online  { background: var(--accent); }
+.status-dot.testing {
+    background: var(--warning);
+    animation: vibenet-pulse 1.5s ease-in-out infinite;
+}
+.status-dot.killed  { background: var(--danger); }
+.status-text.online  { color: var(--accent); }
+.status-text.testing { color: var(--warning); }
+.status-text.killed  { color: var(--danger); }
+
+@keyframes vibenet-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 var(--warning); opacity: 1; }
+    50%      { box-shadow: 0 0 8px 2px var(--warning); opacity: 0.6; }
+}
+
+/* ===== 紧急停止 ===== */
+.emergency-container {
+    border: 2px solid var(--danger);
+    border-radius: 12px;
+    padding: 20px 24px;
+    background: rgba(239,68,68,0.06);
+    margin: 24px 0;
+}
+
+/* ===== 侧边栏状态卡 ===== */
+.sidebar-status-card {
+    background: var(--bg-surface);
+    border-radius: 8px;
+    padding: 10px 12px;
+    text-align: center;
+    border: 1px solid var(--border);
+    font-size: 13px;
+}
+.sidebar-status-card .state-active {
+    color: var(--warning);
+    font-weight: 600;
+}
+.sidebar-status-card .state-idle {
+    color: var(--text-muted);
+}
+</style>
+""", unsafe_allow_html=True)
+
+# ---------------------------------------------------------------------------
 # Session state — 跨 Streamlit 重渲染保持状态
 # ---------------------------------------------------------------------------
 
@@ -232,7 +511,7 @@ with st.sidebar:
         if oui_count:
             st.caption(f"OUI 数据库：{oui_count:,} 条")
 
-        # —— 统一状态区（始终存在，避免显隐导致排版跳动） ——
+        # —— 统一状态区 ——
         st.divider()
         trav = st.session_state._trav_running
         active = len(st.session_state.spoofers)
@@ -240,13 +519,28 @@ with st.sidebar:
         if trav:
             cur = st.session_state._trav_current
             tot = st.session_state._trav_total
-            st.caption(f"🔍 批量测速中：第 {cur}/{tot} 台设备")
+            st.markdown(
+                f'<div class="sidebar-status-card">'
+                f'🔍 <span class="state-active">批量测速中：第 {cur}/{tot} 台设备</span>'
+                f'</div>',
+                unsafe_allow_html=True,
+            )
             if tot:
                 st.progress(cur / tot if tot else 0)
         elif active:
-            st.caption(f"📡 手动测速中：{active} 台设备")
+            st.markdown(
+                f'<div class="sidebar-status-card">'
+                f'📡 <span class="state-active">手动测速中：{active} 台设备</span>'
+                f'</div>',
+                unsafe_allow_html=True,
+            )
         else:
-            st.caption("💤 待命中 — 点击下方按钮开始")
+            st.markdown(
+                '<div class="sidebar-status-card">'
+                '<span class="state-idle">💤 待命中 — 点击下方按钮开始</span>'
+                '</div>',
+                unsafe_allow_html=True,
+            )
 
         st.divider()
         c_btn1, c_btn2 = st.columns(2)
@@ -287,8 +581,11 @@ if os.geteuid() != 0:
 # 主界面
 # ---------------------------------------------------------------------------
 
-st.title("📡 VibeNet Control")
-st.caption("基于 ARP 欺骗的局域网设备管理与测速")
+st.markdown(
+    '<div class="vibenet-title">📡 <span class="accent">VibeNet</span> Control</div>'
+    '<div class="vibenet-subtitle">基于 ARP 欺骗的局域网设备管理与测速</div>',
+    unsafe_allow_html=True,
+)
 
 if not st.session_state.scanned:
     st.info("👈 点击左侧边栏的 **扫描网络** 发现局域网内的设备。")
@@ -325,65 +622,89 @@ _process_traversal_step()
 # 设备表格
 # ---------------------------------------------------------------------------
 
-CELL_STYLE = "padding:8px 12px; border:1px solid #ccc;"
+def _row_class(idx, is_killed, is_random):
+    if is_killed:
+        return "row-killed"
+    if is_random:
+        return f"row-random"
+    return f"row-real-{'even' if idx % 2 == 0 else 'odd'}"
 
 
-def _build_table(devices, start_num, title, row_style, font_color):
-    """渲染 HTML 设备表格。"""
+def _build_table(devices, start_num, title, count_suffix, is_random):
     spoofers = st.session_state.spoofers
     speed_results = st.session_state.speed_results
 
-    html = [
-        f"<h4 style='margin-top:16px; margin-bottom:8px;'>{title} ({len(devices)})</h4>",
-        "<table style='width:100%; border-collapse:collapse; font-size:14px; border:1px solid #ccc;'>",
-        "<tr style='text-align:left; background:#333;'>",
-        f"<th style='{CELL_STYLE} color:#fff;'>#</th>",
-        f"<th style='{CELL_STYLE} color:#fff;'>IP 地址</th>",
-        f"<th style='{CELL_STYLE} color:#fff;'>MAC 地址</th>",
-        f"<th style='{CELL_STYLE} color:#fff;'>厂商</th>",
-        f"<th style='{CELL_STYLE} color:#fff;'>状态</th>",
-        f"<th style='{CELL_STYLE} color:#fff;'>速率</th>",
-        "</tr>",
-    ]
+    killed_count = 0
+    testing_count = 0
+    online_count = len(devices)
 
+    rows_html = []
     for i, d in enumerate(devices):
         vendor = get_vendor(d["mac"], oui_db, online=True)
         ip = d["ip"]
         in_test = ip in spoofers and spoofers[ip].is_running
         is_killed = in_test and spoofers[ip].is_killed
 
-        # 状态
         if is_killed:
-            status = "🔴 已断网"
+            status_cls = "killed"
+            status_text = "已断网"
+            killed_count += 1
+            online_count -= 1
         elif in_test:
-            status = "🟡 测速中"
+            status_cls = "testing"
+            status_text = "测速中"
+            testing_count += 1
+            online_count -= 1
         else:
-            status = "🟢 在线"
+            status_cls = "online"
+            status_text = "在线"
 
-        # 速率列（从快照读取，避免重复调用 get_traffic_stats）
+        # 速率列
         snap = st.session_state.get("_speed_snap", {})
         if in_test and ip in snap:
             up, down = snap[ip]
-            speed = f"<b>↓ {_format_speed(down)}  ↑ {_format_speed(up)}</b>"
+            speed = (
+                f'<span class="speed-down">↓ {_format_speed(down)}</span>'
+                f'  <span class="speed-up">↑ {_format_speed(up)}</span>'
+            )
         elif ip in speed_results:
             sr = speed_results[ip]
-            speed = f"↓ {_format_speed(sr['down'])}  ↑ {_format_speed(sr['up'])}"
+            speed = (
+                f'<span class="pk">↓ {_format_speed(sr["down"])}</span>'
+                f'  <span class="sp">↑ {_format_speed(sr["up"])}</span>'
+            )
         else:
-            speed = "-"
+            speed = '<span class="pk">-</span>'
 
-        bg, color = row_style(i, is_killed)
-        html.append(
-            f"<tr style='background:{bg}; color:{color};'>"
-            f"<td style='{CELL_STYLE}'>{start_num + i}</td>"
-            f"<td style='{CELL_STYLE}'><b>{ip}</b></td>"
-            f"<td style='{CELL_STYLE} font-family:monospace;'>{d['mac']}</td>"
-            f"<td style='{CELL_STYLE}'>{vendor}</td>"
-            f"<td style='{CELL_STYLE}'>{status}</td>"
-            f"<td style='{CELL_STYLE} font-family:monospace;'>{speed}</td>"
-            f"</tr>"
+        row_cls = _row_class(i, is_killed, is_random)
+        rows_html.append(
+            f'<tr class="{row_cls}">'
+            f'<td>{start_num + i}</td>'
+            f'<td class="col-ip">{ip}</td>'
+            f'<td class="col-mac">{d["mac"]}</td>'
+            f'<td>{vendor}</td>'
+            f'<td class="col-status"><span class="status-dot {status_cls}"></span> {status_text}</td>'
+            f'<td>{speed}</td>'
+            f'</tr>'
         )
-    html.append("</table>")
-    return "".join(html)
+
+    summary = f'{online_count} 在线'
+    if testing_count:
+        summary += f' · {testing_count} 测速中'
+    if killed_count:
+        summary += f' · {killed_count} 断网'
+
+    return (
+        f'<div class="vibenet-table-wrapper">'
+        f'<h4>{title} <span class="count">{count_suffix}</span>'
+        f'<span style="font-weight:400;font-size:11px;color:var(--text-muted);float:right;margin-top:2px;">{summary}</span></h4>'
+        f'<table class="vibenet-table">'
+        f'<thead><tr>'
+        f'<th>#</th><th>IP 地址</th><th>MAC 地址</th><th>厂商</th><th>状态</th><th>速率</th>'
+        f'</tr></thead>'
+        f'<tbody>{"".join(rows_html)}</tbody>'
+        f'</table></div>'
+    )
 
 
 # 拆分设备
@@ -395,26 +716,14 @@ random_devices.sort(key=lambda d: _ip_int(d["ip"]))
 
 st.subheader(f"网络 {st.session_state.network} 中的设备")
 
-# --- 真实设备表格 ---
-def _real_row_style(idx, is_killed):
-    if is_killed:
-        return "#ffcdd2", "#000"
-    bg = "#e8f5e9" if idx % 2 == 0 else "#c8e6c9"
-    return bg, "#000"
-
 html_all = []
 html_all.append(_build_table(real_devices, 1,
-    "📡 真实设备（全球唯一 MAC）", _real_row_style, "#000"))
-
-# --- 随机化设备表格 ---
-def _random_row_style(idx, is_killed):
-    bg = "#e3f2fd" if idx % 2 == 0 else "#bbdefb"
-    return bg, "#777"
+    "📡 真实设备（全球唯一 MAC）", f"({len(real_devices)})", is_random=False))
 
 if random_devices:
     start = len(real_devices) + 1
     html_all.append(_build_table(random_devices, start,
-        "🔒 路过扫描设备（随机化 MAC）", _random_row_style, "#777"))
+        "🔒 路过扫描设备（随机化 MAC）", f"({len(random_devices)})", is_random=True))
 
 st.markdown("".join(html_all), unsafe_allow_html=True)
 
@@ -423,7 +732,6 @@ st.markdown("".join(html_all), unsafe_allow_html=True)
 # ---------------------------------------------------------------------------
 
 def _render_device_cards(device_list, is_randomized_section=False):
-    """渲染一组设备的控制卡片。"""
     COLS_PER_ROW = 3
     for i in range(0, len(device_list), COLS_PER_ROW):
         batch = device_list[i : i + COLS_PER_ROW]
@@ -439,98 +747,126 @@ def _render_device_cards(device_list, is_randomized_section=False):
             in_test = has_spoofer and sp.is_running and st.session_state._testing.get(ip, False)
             is_killed = has_spoofer and sp.is_running and sp.is_killed
 
+            # 状态信息
+            if is_killed:
+                status_cls = "killed"
+                status_text = "已断网"
+            elif in_test:
+                status_cls = "testing"
+                status_text = "测速中"
+            else:
+                status_cls = "online"
+                status_text = "在线"
+
+            # 速率区域 HTML
+            speed_html = ""
+            if in_test:
+                up, down = st.session_state.get("_speed_snap", {}).get(ip, (0.0, 0.0))
+                speed_html = (
+                    f'<div class="card-speed-box">'
+                    f'实时 <span class="dl">↓ {_format_speed(down)}</span>'
+                    f'  <span class="ul">↑ {_format_speed(up)}</span>'
+                )
+                pk = st.session_state._peak_speeds.get(ip)
+                if pk and (pk["up"] > 0 or pk["down"] > 0):
+                    speed_html += (
+                        f'<br>峰值 <span class="dl">↓ {_format_speed(pk["down"])}</span>'
+                        f'  <span class="ul">↑ {_format_speed(pk["up"])}</span>'
+                    )
+                speed_html += "</div>"
+            elif ip in st.session_state.speed_results:
+                sr = st.session_state.speed_results[ip]
+                speed_html = (
+                    f'<div class="card-speed-box">'
+                    f'<span class="pk">上次测速 ({sr["time"]})</span><br>'
+                    f'<span class="dl">↓ {_format_speed(sr["down"])}</span>'
+                    f'  <span class="ul">↑ {_format_speed(sr["up"])}</span>'
+                    f'</div>'
+                )
+            else:
+                speed_html = '<div class="card-speed-box" style="border-left-color:var(--border);"><span class="pk">暂无测速数据</span></div>'
+
             with cols[j]:
-                with st.container(border=True):
-                    tag = " 🔒随机" if is_randomized_section else ""
-                    st.markdown(f"**{ip}**{tag}")
-                    st.caption(f"{mac}")
-                    st.caption(f"{vendor}")
+                card_cls = "vibenet-card randomized" if is_randomized_section else "vibenet-card"
+                tag_html = '<span class="card-tag">随机MAC</span>' if is_randomized_section else ""
 
-                    if is_gateway:
-                        st.warning("⚠️ 网关 — 不可操作")
-                        continue
+                card_html = (
+                    f'<div class="{card_cls}">'
+                    f'<div class="card-header">'
+                    f'<span class="card-ip">{ip}</span>{tag_html}'
+                    f'</div>'
+                    f'<div class="status-indicator">'
+                    f'<span class="status-dot {status_cls}"></span>'
+                    f'<span class="status-text {status_cls}">{status_text}</span>'
+                    f'</div>'
+                    f'<div class="card-mac">{mac}</div>'
+                    f'<div class="card-vendor">{vendor}</div>'
+                    f'{speed_html}'
+                    f'</div>'
+                )
+                st.markdown(card_html, unsafe_allow_html=True)
 
-                    # --- 状态 + 速率 ---
-                    if is_killed:
-                        st.markdown("🔴 **已断网**")
-                    elif in_test:
-                        st.markdown("🟡 **测速中**")
-                    else:
-                        st.markdown("🟢 **在线**")
+                if is_gateway:
+                    st.warning("⚠️ 网关 — 不可操作")
+                    continue
 
-                    # 速率显示（从快照读取，避免重复调用 get_traffic_stats）
+                c1, c2 = st.columns(2)
+
+                with c1:
                     if in_test:
-                        up, down = st.session_state.get("_speed_snap", {}).get(ip, (0.0, 0.0))
-                        st.caption(f"实时 ↓ {_format_speed(down)}  ↑ {_format_speed(up)}")
-
-                        # 峰值
-                        pk = st.session_state._peak_speeds.get(ip)
-                        if pk and (pk["up"] > 0 or pk["down"] > 0):
-                            st.caption(f"峰值 ↓ {_format_speed(pk['down'])}  ↑ {_format_speed(pk['up'])}")
-                    elif ip in st.session_state.speed_results:
-                        sr = st.session_state.speed_results[ip]
-                        st.caption(f"上次测速 ({sr['time']})：↓ {_format_speed(sr['down'])}  ↑ {_format_speed(sr['up'])}")
+                        if st.button("⏹ 停止测速", key=f"stop_{ip}", use_container_width=True):
+                            pk = st.session_state._peak_speeds.get(ip, {})
+                            st.session_state.speed_results[ip] = {
+                                "up": round(pk.get("up", 0), 1),
+                                "down": round(pk.get("down", 0), 1),
+                                "time": datetime.now().strftime("%H:%M:%S"),
+                            }
+                            st.session_state._peak_speeds.pop(ip, None)
+                            if is_killed:
+                                st.session_state._testing[ip] = False
+                            else:
+                                sp.stop(restore=True)
+                                del st.session_state.spoofers[ip]
+                                st.session_state._testing.pop(ip, None)
+                            st.rerun()
                     else:
-                        st.caption("暂无测速数据")
-
-                    # --- 两个按钮：测速 + 断网/恢复 ---
-                    c1, c2 = st.columns(2)
-
-                    with c1:
-                        if in_test:
-                            if st.button("⏹ 停止测速", key=f"stop_{ip}", use_container_width=True):
-                                pk = st.session_state._peak_speeds.get(ip, {})
-                                st.session_state.speed_results[ip] = {
-                                    "up": round(pk.get("up", 0), 1),
-                                    "down": round(pk.get("down", 0), 1),
-                                    "time": datetime.now().strftime("%H:%M:%S"),
-                                }
-                                st.session_state._peak_speeds.pop(ip, None)
-                                if is_killed:
-                                    st.session_state._testing[ip] = False
-                                else:
-                                    sp.stop(restore=True)
-                                    del st.session_state.spoofers[ip]
-                                    st.session_state._testing.pop(ip, None)
-                                st.rerun()
-                        else:
-                            if st.button("🔍 开始测速", key=f"start_{ip}", use_container_width=True):
-                                if has_spoofer and sp.is_running:
+                        if st.button("🔍 开始测速", key=f"start_{ip}", use_container_width=True):
+                            if has_spoofer and sp.is_running:
+                                st.session_state._testing[ip] = True
+                            else:
+                                try:
+                                    new_sp = ArpSpoofer(ip, gateway_ip)
+                                    new_sp.start()
+                                    st.session_state.spoofers[ip] = new_sp
                                     st.session_state._testing[ip] = True
-                                else:
-                                    try:
-                                        new_sp = ArpSpoofer(ip, gateway_ip)
-                                        new_sp.start()
-                                        st.session_state.spoofers[ip] = new_sp
-                                        st.session_state._testing[ip] = True
-                                    except RuntimeError as e:
-                                        st.error(f"无法连接 {ip}：{e}")
-                                st.rerun()
+                                except RuntimeError as e:
+                                    st.error(f"无法连接 {ip}：{e}")
+                            st.rerun()
 
-                    with c2:
-                        if is_killed:
-                            if st.button("🟢 恢复", key=f"restore_{ip}", use_container_width=True):
-                                sp.unkill()
-                                for s in st.session_state.spoofers.values():
-                                    if s.is_running:
-                                        s._killed = False
-                                st.rerun()
-                        else:
-                            if st.button("🔴 断网", key=f"kill_{ip}", use_container_width=True):
-                                if not has_spoofer or not sp.is_running:
-                                    try:
-                                        new_sp = ArpSpoofer(ip, gateway_ip)
-                                        new_sp.start()
-                                        st.session_state.spoofers[ip] = new_sp
-                                        new_sp.kill()
-                                    except RuntimeError as e:
-                                        st.error(f"无法连接 {ip}：{e}")
-                                else:
-                                    sp.kill()
-                                for s in st.session_state.spoofers.values():
-                                    if s.is_running:
-                                        s._killed = True
-                                st.rerun()
+                with c2:
+                    if is_killed:
+                        if st.button("🟢 恢复", key=f"restore_{ip}", use_container_width=True):
+                            sp.unkill()
+                            for s in st.session_state.spoofers.values():
+                                if s.is_running:
+                                    s._killed = False
+                            st.rerun()
+                    else:
+                        if st.button("🔴 断网", key=f"kill_{ip}", use_container_width=True):
+                            if not has_spoofer or not sp.is_running:
+                                try:
+                                    new_sp = ArpSpoofer(ip, gateway_ip)
+                                    new_sp.start()
+                                    st.session_state.spoofers[ip] = new_sp
+                                    new_sp.kill()
+                                except RuntimeError as e:
+                                    st.error(f"无法连接 {ip}：{e}")
+                            else:
+                                sp.kill()
+                            for s in st.session_state.spoofers.values():
+                                if s.is_running:
+                                    s._killed = True
+                            st.rerun()
 
 
 st.divider()
@@ -552,17 +888,7 @@ if random_devices:
 st.divider()
 
 st.markdown(
-    """
-    <style>
-    .emergency-container {
-        border: 3px solid #ff4b4b;
-        border-radius: 12px;
-        padding: 20px;
-        background-color: #fff0f0;
-        margin-bottom: 20px;
-    }
-    </style>
-    """,
+    '<div class="emergency-container">',
     unsafe_allow_html=True,
 )
 
@@ -611,6 +937,8 @@ with col1:
                     st.error(f"恢复失败 — {err}")
             st.success(f"已恢复 {restored} 台设备。网络已清理。")
             st.rerun()
+
+st.markdown("</div>", unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
 # 自动刷新

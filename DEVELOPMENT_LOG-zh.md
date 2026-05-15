@@ -4,8 +4,8 @@
 
 一款基于 macOS 的 ARP 欺骗工具，用于网络拦截和访问控制。使用 Python 3 + scapy 构建，通过 `sysctl` 控制内核级 IP 转发。提供终端命令行界面（CLI）和 Streamlit Web 界面（GUI）。
 
-**开发周期**：2026-05-06
-**状态**：全部 8 个阶段已完成。
+**开发周期**：2026-05-06（Phases 1-8），2026-05-15（Phases 9-10）
+**状态**：全部 10 个阶段已完成。
 
 ---
 
@@ -652,3 +652,84 @@ WIFIkiller/
 7. **本地 OUI 数据库自动更新**：定期获取并合并最新的 IEEE OUI 注册数据。
 
 8. **Web UI 流量图表**：使用 Streamlit 图表实时展示每台被拦截目标的带宽使用情况。
+
+---
+
+## Phase 9：多设备稳定性修复（2026-05-15）
+
+### 目标
+修复多设备并发场景下的 IP 转发全局状态管理问题及 .app 启动可靠性问题。
+
+### 修复清单
+
+| # | 文件 | 问题 | 修复 |
+|---|------|------|------|
+| P1-1 | `core/spoofing.py` | `stop()` 无条件调用 `disable_ip_forwarding()`，多 spoof 时停止一台会断开所有设备 | 添加模块级 `_active_spoofer_count` 引用计数 + `_count_lock`；`start()` 递增，`stop()` 递减，仅计数归零 + `restore=True` 时关闭转发 |
+| P1-2 | `app_entry.py` | 端口 8501 冲突无处理，上次未正常退出时新启动失败 | 新增 `_kill_port_process()` 函数，在 `_start_streamlit()` 前检测并 kill 占用进程 |
+| P1-3 | `app_entry.py` | `sudo -S -b` 在老版 macOS 中不可靠 | 移除 `-b` 标志，改用 `start_new_session=True`（Python 3.2+ 原生支持） |
+| P1-4 | `gui.py` | 多设备 kill/unkill 时 UI 状态与实际网络状态不一致 | kill/unkill 后遍历所有 spoofer 同步 `_killed` 状态；添加全局警告提示"断网/恢复同时影响所有设备" |
+| P1-5 | `run.sh` | `$!` 捕获的是 sudo 的 PID 而非 streamlit | 改用 `lsof -ti :8501` 获取真实 streamlit PID；添加 `trap cleanup EXIT` 确保退出时端口释放 |
+
+### 关键设计决策
+
+**IP 转发引用计数**：
+```python
+_active_spoofer_count = 0
+_count_lock = threading.Lock()
+
+# start() 中递增
+with _count_lock:
+    _active_spoofer_count += 1
+
+# stop() 中递减，仅归零时关闭
+with _count_lock:
+    _active_spoofer_count = max(0, _active_spoofer_count - 1)
+    if _active_spoofer_count == 0 and restore:
+        disable_ip_forwarding()
+```
+
+---
+
+## Phase 10：Web UI 全面美化 — "Cyber-Network Terminal"（2026-05-15）
+
+### 目标
+将 Streamlit 默认白底蓝调界面升级为暗色主题的专业网络运维仪表盘。
+
+### 设计语言
+- **风格**：暗色主题 + 霓虹绿 (`#00D4AA`) 强调色
+- **联想**：Wireshark 的功能性 + Grafana 的美观性
+
+### 配色方案
+
+| 令牌 | 色值 | 用途 |
+|------|------|------|
+| `--bg-primary` | `#0B1120` | 主背景 |
+| `--bg-secondary` | `#111827` | 侧边栏/卡片背景 |
+| `--bg-surface` | `#1A2332` | 表格交替行 / 卡片 |
+| `--accent` | `#00D4AA` | 主强调色 / 在线 / 下载 |
+| `--warning` | `#F59E0B` | 测速中 |
+| `--danger` | `#EF4444` | 断网 / 紧急 |
+| `--info` | `#3B82F6` | 上传速率 |
+
+### 改造清单
+
+| 区域 | 改进 |
+|------|------|
+| **全局 CSS** | ~200 行 CSS 变量 + Streamlit 组件覆盖（按钮圆角阴影、侧边栏暗色、进度条渐变色） |
+| **标题区** | 自定义 HTML，"VibeNet" 使用霓虹绿高亮 |
+| **设备表格** | CSS 类替代内联样式：渐变表头、hover 行高亮、`row-real`/`row-random`/`row-killed` 三类行样式、随机设备半透明、每表带汇总统计（X在线·Y测速中·Z断网） |
+| **控制卡片** | 结构化 HTML vibenet-card：IP 大号加粗、状态圆点+脉冲动画 (`@keyframes vibenet-pulse`)、速率数据框（左色条）、MAC/厂商灰色层次、hover 发光边框 |
+| **侧边栏** | 状态区卡片化（`sidebar-status-card`）：测速时黄底、待命时灰底 |
+| **紧急停止** | 暗红背景 + 红色发光边框，CSS 集中管理 |
+
+### 代码变更量
+- `gui.py`：625 行 → 953 行（+328 行，主要是 CSS 块 + HTML 重构）
+- `core/` 模块：0 改动
+- 所有按钮回调、session state 逻辑保持不变
+
+### 测试套件
+- 新增 `test_ui_playwright.sh`：955 行 Playwright 自动化测试（4 场景：页面加载、侧边栏、响应式布局、样式验证）
+- 支持 3 种分辨率截图（1920x1080 / 1280x720 / 800x600）
+
+---
+

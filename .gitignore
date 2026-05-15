@@ -34,3 +34,8 @@ oui_cache.json
 
 # Local Claude settings
 .claude/settings.local.json
+
+# Node.js (test scripts use system playwright)
+node_modules/
+package.json
+package-lock.json

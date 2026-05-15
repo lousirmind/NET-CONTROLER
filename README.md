@@ -4,13 +4,13 @@ A macOS network management tool that uses ARP Spoofing to intercept and control 
 
 ## Features
 
-- **Network Scanner** — Discover all active devices on the local network with IP, MAC address, and vendor name (uses nmap OUI database + supplementary Chinese brand database + online API fallback).
-- **Real vs. Randomized Detection** — Automatically distinguishes real connected devices from nearby devices using randomized MAC addresses (iOS/Android privacy feature).
-- **ARP Spoofing** — Intercept traffic between a target device and the gateway (Man-in-the-Middle).
-- **Kill Switch** — Drop the target's internet access with a single keystroke or button click.
-- **Multi-Target Control (GUI)** — Manage multiple targets simultaneously from the Web UI.
-- **Emergency Stop** — One-click restoration of all active spoofing sessions and system forwarding settings.
-- **Safe Recovery** — Ctrl+C (CLI) or Emergency Stop button (GUI) always triggers clean ARP restoration.
+- **Network Scanner** — Discover all active devices with IP, MAC, and vendor name (nmap OUI + Chinese brand supplement + online API).
+- **Real-time Speed Testing** — Single-device manual and batch traversal auto-testing with delta rate calculation and peak tracking.
+- **Real vs. Randomized Detection** — Distinguishes real connected devices from nearby devices using randomized MAC addresses.
+- **ARP Spoofing** — Intercept traffic between target and gateway (MITM), with reference-counted IP forwarding for multi-device scenarios.
+- **Kill / Restore** — Drop or restore internet access with one click, automatic UI state sync across all devices.
+- **Dark Web UI** — "Cyber-Network Terminal" theme, neon green accents, status dot pulse animations, card-based controls.
+- **Emergency Stop** — One-click recovery of all active spoofing sessions with automatic port cleanup.
 
 ## Requirements
 
@@ -57,15 +57,14 @@ brew install nmap
 bash run.sh --gui
 ```
 
-Your browser opens automatically at `http://localhost:8501`.
+Your browser opens automatically at `http://localhost:8501` with a dark terminal-inspired dashboard.
 
 1. Click **Scan Network** in the left sidebar.
-2. View devices split into two tables:
-   - **Connected Devices** (real MAC) — green rows, full vendor info, actionable.
-   - **Nearby Scanning** (randomized MAC) — blue rows, gray text, read-only.
-3. Each real device has a **Kill** button in the Device Control section below.
-4. Killed devices show a **Restore** button to bring them back online.
-5. Use **Emergency Stop** at the bottom to restore everything at once.
+2. View devices split into two tables with per-table summary stats (online/testing/killed).
+3. Below the tables, **Device Control Cards** show IP, MAC, vendor, status dot (with pulse animation), and real-time speed.
+4. Each device has two buttons: **Start / Stop Speed Test** (with peak tracking) and **Kill / Restore**.
+5. Sidebar supports **Batch Traversal** — auto-spoof each device, sample speed 3×, save peak results.
+6. Use **Emergency Stop** at the bottom to restore everything and clean up ports.
 
 ### CLI (Terminal)
 

@@ -143,28 +143,34 @@ else
     exit 1
 fi
 
-# 检查 Playwright
-echo -n "[*] Playwright .............. "
+# 检查 Playwright (Node.js)
+echo -n "[*] Playwright (Node.js) .... "
+PW_FOUND=false
 if node -e "require('playwright')" 2>/dev/null; then
     PW_VER=$(node -e "console.log(require('playwright/package.json').version)" 2>/dev/null)
-    echo -e "${GREEN}OK${NC}  (v${PW_VER})"
+    echo -e "${GREEN}OK${NC}  (v${PW_VER}, global)"
+    PW_FOUND=true
+elif npx --yes playwright --version 2>/dev/null; then
+    echo -e "${GREEN}OK${NC}  (via npx)"
+    PW_FOUND=true
 else
     echo -e "${YELLOW}NOT FOUND${NC}"
-    echo "    正在安装 playwright..."
-    npm install playwright 2>/dev/null || {
-        echo -e "${RED}    安装失败。请手动运行: npm install playwright${NC}"
+    echo "    正在安装 (全局)..."
+    npm install -g playwright 2>/dev/null || {
+        echo -e "${RED}    安装失败。请手动运行: npm install -g playwright${NC}"
         exit 1
     }
     echo -e "    ${GREEN}安装完成${NC}"
+    PW_FOUND=true
 fi
 
-# 检查浏览器
+# 检查 Chromium 浏览器
 echo -n "[*] Chromium 浏览器 ......... "
-if npx playwright install chromium --dry-run 2>/dev/null; then
+if npx --yes playwright install chromium --dry-run 2>/dev/null; then
     echo -e "${GREEN}OK${NC}"
 else
     echo -e "${YELLOW}NOT FOUND — 正在安装 Chromium...${NC}"
-    npx playwright install chromium 2>/dev/null
+    npx --yes playwright install chromium 2>/dev/null
 fi
 
 # 检查服务

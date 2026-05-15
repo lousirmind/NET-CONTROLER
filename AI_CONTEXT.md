@@ -1,6 +1,6 @@
 # AI_CONTEXT.md — VibeNet Control 项目全量上下文
 
-> 生成时间：2026-05-06（更新：Phase 8 打包完成）
+> 生成时间：2026-05-06（更新：2026-05-15 Phase 10 UI 美化完成）
 > 给下一个 AI 会话使用的结构化交接文档。
 
 ---
@@ -24,24 +24,26 @@
 ```
 WIFIkiller/
 ├── main.py                 # CLI 入口（扫描→选择→欺骗→断网/恢复+实时速率）
-├── gui.py                  # Streamlit Web 界面（扫描、批量测速、设备控制）
+├── gui.py                  # Streamlit Web 界面（暗色主题，扫描/测速/断网/卡片控制）
 ├── app_entry.py            # macOS .app 入口点（AppleScript 密码对话框 + sudo 提权）
-├── run.sh                  # 一键启动脚本（依赖检查 + sudo -v + 启动）
+├── run.sh                  # 一键启动脚本（依赖检查 + sudo -v + lsof PID 管理）
 ├── build.sh                # .app 打包脚本（clean venv + PyInstaller）
 ├── generate_icon.py        # 应用图标生成器（PIL + iconutil）
 ├── icon.icns / icon.png    # 应用图标
 ├── requirements.txt        # scapy>=2.5.0, streamlit>=1.28.0
-├── CLAUDE.md               # 原始项目指令
 ├── README.md / README-zh.md
-├── DEVELOPMENT_LOG.md / DEVELOPMENT_LOG-zh.md
+├── DEVELOPMENT_LOG-zh.md   # 开发日志（Phases 1-10）
+├── AI_CONTEXT.md           # 本文件
 ├── oui_supplement.txt      # 补充 OUI 数据库（~2,900 条中国品牌 + IoT）
 ├── oui_cache.json          # 在线 API 查询缓存（bundle 中存储在 ~/.vibenet/）
-├── AI_CONTEXT.md           # 本文件
+├── test_report.md          # Phase 9 测试报告
+├── test_ui_playwright.sh   # Phase 10 Playwright UI 自动化测试
+├── ui_test_report.md       # Phase 10 UI 测试报告
 ├── core/
 │   ├── __init__.py
 │   ├── scanner.py          # ARP 扫描 + 三层厂商识别 + 随机化 MAC 检测 + bundle 路径适配
-│   ├── spoofing.py         # ArpSpoofer 类（线程 + ARP 恢复 + kill/unkill + 监控集成）
-│   └── monitor.py          # TrafficMonitor 类（AsyncSniffer + delta 速率统计 + kill 感知）
+│   ├── spoofing.py         # ArpSpoofer（引用计数 IP 转发 + 线程 + kill/unkill + 监控集成）
+│   └── monitor.py          # TrafficMonitor（AsyncSniffer + delta 速率 + kill 感知）
 └── utils/
     ├── __init__.py
     └── sys_config.py       # sysctl net.inet.ip.forwarding 读写封装
@@ -281,8 +283,29 @@ macOS .app 打包：
 3. **`--windowed` 二进制无终端输出**：调试时 stdout/stderr 不显示。需写入日志文件或使用 `--console` 模式构建调试版本。
 
 **已知未解决问题**：
-1. `sudo -S -b` 后台启动可靠性：在某些 macOS 配置下可能失败，导致浏览器打开时 Streamlit 未就绪（"无服务"）。需进一步测试和可能的回退方案（如 `Popen` + 轮询）。
-2. 端口 8501 冲突未处理：上次未正常退出时端口仍被占用，需手动 `kill` 旧进程。
+1. `sudo -S -b` → **Phase 9 已修复**（改用 `start_new_session=True`）
+2. 端口 8501 冲突 → **Phase 9 已修复**（新增 `_kill_port_process()`）
+
+---
+
+### Phase 9（已完成 — 2026-05-15）
+多设备稳定性修复：
+- IP 转发引用计数：`core/spoofing.py` 新增 `_active_spoofer_count` + `_count_lock`
+- `stop()` 仅在最后一个 spoofer 停止时关闭转发
+- `app_entry.py`：端口冲突检测 + `start_new_session=True` 替代 `sudo -b`
+- `gui.py`：kill/unkill 后同步所有设备 `_killed` 状态 + 全局警告
+- `run.sh`：`lsof -ti :8501` 替代 `$!` + trap EXIT 清理
+
+---
+
+### Phase 10（已完成 — 2026-05-15）
+Web UI "Cyber-Network Terminal" 暗色主题：
+- ~200 行 CSS 自定义属性 + Streamlit 组件覆盖
+- 表格 CSS 类（渐变表头、hover 高亮、row-killed 红底、汇总统计）
+- 设备卡片结构化 HTML（状态圆点+脉冲动画、速率数据框、hover 发光）
+- 侧边栏状态卡 + 紧急停止强化
+- gui.py：625 → 953 行，core/ 模块 0 改动
+- 测试：`test_ui_playwright.sh`（955 行 Playwright 自动化）
 
 ---
 
@@ -318,15 +341,18 @@ macOS .app 打包：
 
 1. **遍历测速慢**：每设备 6 秒（3 样本 × 2s），22 台设备需 ~2 分钟。可减少样本数或缩短 auto-refresh 间隔来加速。
 
-2. **无带宽限速功能**：目前只有二进制的断网/恢复，无分级限速。DEVELOPMENT_LOG 提到可用 macOS `pf`/`dnctl` 实现。
+2. **无带宽限速功能**：目前只有二进制的断网/恢复，无分级限速。可用 macOS `pf`/`dnctl` 实现逐设备带宽控制。
 
 3. **跨平台**：`sysctl`、`route`、`ifconfig` 均为 macOS 专用，Linux 需替换为 `/proc/sys/net/ipv4/ip_forward`、`ip route`。
 
 4. **厂商数据库**：依赖 nmap 的 OUI 数据库，无 nmap 时无优雅降级。
 
-5. **遍历时停止问题**：遍历中使用 spoofers dict 存储临时 spoofer，和手动测速共享同一字典。点击「停止测速」会清空所有 spoofer（包括正在遍历的），但遍历状态机的 `_trav_running=False`+清空队列已处理。
+5. **app 启动失败排查困难**：`--windowed` 二进制无终端输出，错误信息隐藏在 `~/.vibenet/app.log`。未来可添加 GUI 错误提示。
 
-6. **app 启动失败排查困难**：`--windowed` 二进制无终端输出，错误信息隐藏在 `~/.vibenet/app.log`。未来可添加 GUI 错误提示。
+6. ~~多个 spoofer 的 IP 转发竞态~~ → **Phase 9 已修复**（引用计数）
+7. ~~端口 8501 冲突~~ → **Phase 9 已修复**（`_kill_port_process()`）
+8. ~~GUI 状态与实际网络状态不一致~~ → **Phase 9 已修复**（kill/unkill 状态同步）
+9. ~~UI 设计陈旧~~ → **Phase 10 已修复**（暗色主题全面美化）
 
 ---
 

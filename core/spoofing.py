@@ -18,6 +18,9 @@ from scapy.all import ARP, Ether, conf, sendp, srp1
 from core.monitor import TrafficMonitor
 from utils.sys_config import enable_ip_forwarding, disable_ip_forwarding
 
+_active_spoofer_count = 0
+_count_lock = threading.Lock()
+
 
 class ArpSpoofer:
     """
@@ -75,6 +78,9 @@ class ArpSpoofer:
 
         self._stop_event.clear()
         enable_ip_forwarding()
+        with _count_lock:
+            global _active_spoofer_count
+            _active_spoofer_count += 1
 
         self._thread = threading.Thread(target=self._spoof_loop, daemon=True)
         self._thread.start()
@@ -90,7 +96,8 @@ class ArpSpoofer:
         Stop the spoofing thread.
 
         If *restore* is True (default), send genuine ARP replies to both
-        hosts so they relearn the correct MACs.  Also disables IP forwarding.
+        hosts so they relearn the correct MACs.  Also disables IP forwarding
+        only when no other spoofers remain active.
         """
         self._stop_event.set()
         if self._thread:
@@ -102,8 +109,19 @@ class ArpSpoofer:
 
         if restore:
             self._restore_arp()
-        disable_ip_forwarding()
-        print("[*] Spoofing stopped, IP forwarding disabled.")
+
+        forwarding_disabled = False
+        with _count_lock:
+            global _active_spoofer_count
+            _active_spoofer_count = max(0, _active_spoofer_count - 1)
+            if _active_spoofer_count == 0 and restore:
+                disable_ip_forwarding()
+                forwarding_disabled = True
+
+        if forwarding_disabled:
+            print("[*] Spoofing stopped, IP forwarding disabled.")
+        else:
+            print("[*] Spoofing stopped.")
 
     def kill(self):
         """

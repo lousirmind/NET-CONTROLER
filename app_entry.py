@@ -7,6 +7,7 @@ VibeNet Control macOS .app 入口点
 """
 
 import os
+import signal
 import subprocess
 import sys
 import threading
@@ -23,8 +24,26 @@ def _bundle_dir():
     return getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
 
 
+def _kill_port_process(port=8501):
+    """Kill any process occupying the given port."""
+    try:
+        result = subprocess.run(
+            ["lsof", "-ti", f":{port}"],
+            capture_output=True, text=True, timeout=5,
+        )
+        for pid in result.stdout.strip().split("\n"):
+            if pid:
+                os.kill(int(pid), signal.SIGTERM)
+                time.sleep(0.5)
+    except Exception:
+        pass
+
+
 def _start_streamlit():
     """以 root 启动 Streamlit 服务器。"""
+    _kill_port_process(8501)
+    time.sleep(1)
+
     bundle = _bundle_dir()
     gui_path = os.path.join(bundle, "gui.py")
 
@@ -124,20 +143,15 @@ def main():
 
     # 密码正确 — 后台启动自身为 root
     proc = subprocess.Popen(
-        ["sudo", "-S", "-b", binary],
+        ["sudo", "-S", binary],
         stdin=subprocess.PIPE,
         stdout=open(logfile, "w"),
         stderr=subprocess.STDOUT,
+        start_new_session=True,
     )
     proc.stdin.write((password + "\n").encode())
     proc.stdin.close()
-    proc.wait(timeout=5)
 
-    if proc.returncode != 0:
-        _show_alert("启动失败，请重试。")
-        sys.exit(1)
-
-    # sudo -b 已后台启动 root 进程，等待 Streamlit 就绪后打开浏览器
     for _ in range(20):
         time.sleep(1)
         try:

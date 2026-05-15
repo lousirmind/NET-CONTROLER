@@ -511,6 +511,9 @@ def _render_device_cards(device_list, is_randomized_section=False):
                         if is_killed:
                             if st.button("🟢 恢复", key=f"restore_{ip}", use_container_width=True):
                                 sp.unkill()
+                                for s in st.session_state.spoofers.values():
+                                    if s.is_running:
+                                        s._killed = False
                                 st.rerun()
                         else:
                             if st.button("🔴 断网", key=f"kill_{ip}", use_container_width=True):
@@ -524,11 +527,15 @@ def _render_device_cards(device_list, is_randomized_section=False):
                                         st.error(f"无法连接 {ip}：{e}")
                                 else:
                                     sp.kill()
+                                for s in st.session_state.spoofers.values():
+                                    if s.is_running:
+                                        s._killed = True
                                 st.rerun()
 
 
 st.divider()
 st.subheader("🎛 设备控制")
+st.info("注意：断网/恢复基于系统级 IP 转发，同时影响所有被拦截的设备。")
 
 _render_device_cards(real_devices)
 

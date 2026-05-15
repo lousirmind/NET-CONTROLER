@@ -124,8 +124,22 @@ if [ "$GUI_MODE" -eq 1 ]; then
     fi
 
     # 后台启动 Streamlit
+    ST_PID=""
+    cleanup() {
+        if [ -n "$ST_PID" ] && kill -0 "$ST_PID" 2>/dev/null; then
+            kill "$ST_PID" 2>/dev/null
+        fi
+    }
+    trap cleanup EXIT
+
     sudo streamlit run "$SCRIPT_DIR/gui.py" --server.headless true &
-    ST_PID=$!
+    sleep 2
+    ST_PID=$(lsof -ti :8501 2>/dev/null | head -1)
+
+    if [ -z "$ST_PID" ]; then
+        echo "错误：无法获取 Streamlit 进程 PID，端口 8501 可能未成功启动。"
+        exit 1
+    fi
 
     # 等待服务就绪后再打开浏览器
     echo "等待 Streamlit 启动..."
@@ -138,7 +152,7 @@ if [ "$GUI_MODE" -eq 1 ]; then
 
     echo "打开浏览器 http://localhost:8501"
     open http://localhost:8501
-    wait $ST_PID
+    wait "$ST_PID"
 else
     echo "=============================================="
     echo "  Launching VibeNet Control..."
